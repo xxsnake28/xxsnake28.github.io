@@ -80,4 +80,4 @@ theme: hexo-theme-snippet
 deploy:
   type: git
   repository: git@github.com:xxsnake28/bigboss.github.io.git
-  branch: hexo
+  branch: master

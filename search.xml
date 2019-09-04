@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>google面试题  #1</title>
+      <link href="/2019/09/04/google%E9%9D%A2%E8%AF%95%E9%A2%98-1/"/>
+      <url>/2019/09/04/google%E9%9D%A2%E8%AF%95%E9%A2%98-1/</url>
+      
+        <content type="html"><![CDATA[<h4 id="Question-from-Google"><a href="#Question-from-Google" class="headerlink" title="Question from Google"></a>Question from Google</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个指定的数组（int类型），和指定数字k。</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><p>找到在数组中的两个数，两个数的和为指定数字k，返回是否存在。</p><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><ul><li>给定数组[10, 15, 3, 7]  </li><li>给定指定数字 17  </li><li>因10 + 7 = 17，故返回true</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>npm&amp;yarn换源</title>
       <link href="/2019/09/03/npm-yarn%E6%8D%A2%E6%BA%90/"/>
       <url>/2019/09/03/npm-yarn%E6%8D%A2%E6%BA%90/</url>

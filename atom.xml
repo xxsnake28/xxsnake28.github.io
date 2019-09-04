@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bigboss.github.io/"/>
-  <updated>2019-09-04T02:19:31.349Z</updated>
+  <updated>2019-09-04T09:02:13.206Z</updated>
   <id>http://bigboss.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>google面试题  #1</title>
+    <link href="http://bigboss.github.io/2019/09/04/google%E9%9D%A2%E8%AF%95%E9%A2%98-1/"/>
+    <id>http://bigboss.github.io/2019/09/04/google面试题-1/</id>
+    <published>2019-09-04T08:22:00.000Z</published>
+    <updated>2019-09-04T09:02:13.206Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Question-from-Google"><a href="#Question-from-Google" class="headerlink" title="Question from Google"></a>Question from Google</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个指定的数组（int类型），和指定数字k。</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><p>找到在数组中的两个数，两个数的和为指定数字k，返回是否存在。</p><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><ul><li>给定数组[10, 15, 3, 7]  </li><li>给定指定数字 17  </li><li>因10 + 7 = 17，故返回true</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;Question-from-Google&quot;&gt;&lt;a href=&quot;#Question-from-Google&quot; class=&quot;headerlink&quot; title=&quot;Question from Google&quot;&gt;&lt;/a&gt;Question from Google&lt;/h4&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="http://bigboss.github.io/categories/interview-question/"/>
+    
+    
+      <category term="Google" scheme="http://bigboss.github.io/tags/Google/"/>
+    
+  </entry>
   
   <entry>
     <title>npm&amp;yarn换源</title>

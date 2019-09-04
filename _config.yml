@@ -73,7 +73,27 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-snippet
+theme: next
+
+# hexo-generator-search config
+search:
+  path: search.xml
+  field: post
+  content: true
+
+# hexo-symbols-count-time config
+#symbols_count_time:
+#  symbols: true
+#  time: true
+#  total_symbols: true
+#  total_time: true
+#  exclude_codeblock: false
+
+# hexo-admin authentification
+admin:
+  username: xxsnake28
+  password_hash: $2a$10$G/IYXuWgCezaKgummHPfA.eOTGr44AsU7HZjFEwHi0O.Syfn6T0Gu
+  secret: nobody known
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,9 +101,3 @@ deploy:
   type: git
   repository: git@github.com:xxsnake28/bigboss.github.io.git
   branch: master
-
-# hexo-admin authentification
-admin:
-  username: xxsnake28
-  password_hash: $2a$10$G/IYXuWgCezaKgummHPfA.eOTGr44AsU7HZjFEwHi0O.Syfn6T0Gu
-  secret: nobody known

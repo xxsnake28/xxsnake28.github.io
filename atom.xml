@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>懒人聚集地</title>
+  
+  <subtitle>懒才是我们前进的动力</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://bigboss.github.io/"/>
+  <updated>2019-09-04T02:19:31.349Z</updated>
+  <id>http://bigboss.github.io/</id>
+  
+  <author>
+    <name>bigboss</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>npm&amp;yarn换源</title>
+    <link href="http://bigboss.github.io/2019/09/03/npm-yarn%E6%8D%A2%E6%BA%90/"/>
+    <id>http://bigboss.github.io/2019/09/03/npm-yarn换源/</id>
+    <published>2019-09-03T10:10:00.000Z</published>
+    <updated>2019-09-04T02:19:31.349Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="源地址"><a href="#源地址" class="headerlink" title="源地址"></a>源地址</h3><table><thead><tr><th>源名称</th><th>源地址</th></tr></thead><tbody><tr><td>淘宝</td><td><a href="http://registry.npm.taobao.org/" target="_blank" rel="noopener">http://registry.npm.taobao.org/</a></td></tr><tr><td>cnpmjs</td><td><a href="http://r.cnpmjs.org/" target="_blank" rel="noopener">http://r.cnpmjs.org/</a></td></tr></tbody></table><h3 id="替换方式"><a href="#替换方式" class="headerlink" title="替换方式"></a>替换方式</h3><ul><li>npm</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 替换</span><br><span class="line">npm config set registry https://registry.npm.taobao.org</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> 还原</span><br><span class="line">npm config set registry https://registry.npmjs.org/</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> 查看</span><br><span class="line">npm config get registry</span><br></pre></td></tr></table></figure><ul><li>yarn</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 替换</span><br><span class="line">yarn config set registry https://registry.npm.taobao.org</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> 还原</span><br><span class="line">yarn config set registry https://registry.yarnpkg.com</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span> 查看</span><br><span class="line">yarn config get registry</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;源地址&quot;&gt;&lt;a href=&quot;#源地址&quot; class=&quot;headerlink&quot; title=&quot;源地址&quot;&gt;&lt;/a&gt;源地址&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;源名称&lt;/th&gt;
+&lt;th&gt;源地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://bigboss.github.io/categories/note/"/>
+    
+    
+  </entry>
+  
+</feed>

@@ -128,11 +128,11 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: k9SRT9e8olcX1zW5R4eM6ak4D1LWbil-O_FUFiA8fJg
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
-bing_site_verification:
+bing_site_verification: EE702C0E177AA51EF7F133E600D4B054
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
@@ -140,7 +140,7 @@ yandex_site_verification:
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification: jqNAZd6rXa
+baidu_site_verification: FDPDOfQuNj
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true

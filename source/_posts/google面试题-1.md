@@ -6,7 +6,7 @@ categories:
   - interview-question
 date: 2019-09-04 16:22:00
 ---
-#### Question from Google
+#### 来至 Google 的面试题
 
 ##### 条件
 给定一个指定的数组（int类型），和指定数字k。

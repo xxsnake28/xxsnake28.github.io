@@ -5,14 +5,14 @@ categories:
   - note
 date: 2019-09-03 18:10:00
 ---
-### 源地址
+# 源地址
 
 源名称 | 源地址
 ---|---
 淘宝 | http://registry.npm.taobao.org/
 cnpmjs | http://r.cnpmjs.org/
 
-### 替换方式
+# 替换方式
 - npm
 
 ```shell

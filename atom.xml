@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xxsnake28.github.io/"/>
-  <updated>2019-09-04T09:45:56.748Z</updated>
+  <updated>2019-09-05T08:15:23.887Z</updated>
   <id>http://xxsnake28.github.io/</id>
   
   <author>
@@ -17,19 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>uber面试题  #2</title>
-    <link href="http://xxsnake28.github.io/2019/09/04/uber%E9%9D%A2%E8%AF%95%E9%A2%98-2/"/>
-    <id>http://xxsnake28.github.io/2019/09/04/uber面试题-2/</id>
-    <published>2019-09-04T09:36:16.000Z</published>
-    <updated>2019-09-04T09:45:56.748Z</updated>
+    <title>google面试题 #3</title>
+    <link href="http://xxsnake28.github.io/2019/09/05/google%E9%9D%A2%E8%AF%95%E9%A2%98-3/"/>
+    <id>http://xxsnake28.github.io/2019/09/05/google面试题-3/</id>
+    <published>2019-09-05T08:04:41.000Z</published>
+    <updated>2019-09-05T08:15:23.887Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="Question-from-Uber"><a href="#Question-from-Uber" class="headerlink" title="Question from Uber"></a>Question from Uber</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个int型数组</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><ul><li>返回一个新的数组</li><li>要求新的数组的元素为当前<strong>i</strong>元素以外的所有元素的乘积</li></ul><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><h6 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h6><ul><li>给定数组 [1, 2, 3, 4, 5]  </li><li>输出数组为 [120, 60, 40, 30, 24]</li></ul><h6 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h6><ul><li>给定数组 [3, 2, 1]</li><li>输出数组为 [2, 3, 6]</li></ul>]]></content>
+    <content type="html"><![CDATA[<h4 id="来至-Google-的面试题"><a href="#来至-Google-的面试题" class="headerlink" title="来至 Google 的面试题"></a>来至 Google 的面试题</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个二叉树</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><ul><li>编写序列化函数serialize(root)，表示从根路径开始序列化，将该二叉树序列化为字符串 <strong>s</strong></li><li>编写反序列化函数deserialize(s)，将该二叉树还原为对应的对象。</li></ul><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><p>给定的二叉树如下：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Node</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, val, left=None, right=None)</span></span></span><br><span class="line">        self.val = val</span><br><span class="line">        self.left = left</span><br><span class="line">        self.right = right</span><br></pre></td></tr></table></figure><p>用下列代码验证是否有效</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node = Node(<span class="string">'root'</span>, Node(<span class="string">'left'</span>, Node(<span class="string">'left.left'</span>)), Node(<span class="string">'right'</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">assert</span> deserialize(serialize(node)).left.left.val == <span class="string">'left.left'</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;Question-from-Uber&quot;&gt;&lt;a href=&quot;#Question-from-Uber&quot; class=&quot;headerlink&quot; title=&quot;Question from Uber&quot;&gt;&lt;/a&gt;Question from Uber&lt;/h4&gt;&lt;h5 id=&quot;条
+        &lt;h4 id=&quot;来至-Google-的面试题&quot;&gt;&lt;a href=&quot;#来至-Google-的面试题&quot; class=&quot;headerlink&quot; title=&quot;来至 Google 的面试题&quot;&gt;&lt;/a&gt;来至 Google 的面试题&lt;/h4&gt;&lt;h5 id=&quot;条件&quot;&gt;&lt;a href=&quot;#条件&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="http://xxsnake28.github.io/categories/interview-question/"/>
+    
+    
+      <category term="Google" scheme="http://xxsnake28.github.io/tags/Google/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uber面试题  #2</title>
+    <link href="http://xxsnake28.github.io/2019/09/04/uber%E9%9D%A2%E8%AF%95%E9%A2%98-2/"/>
+    <id>http://xxsnake28.github.io/2019/09/04/uber面试题-2/</id>
+    <published>2019-09-04T09:36:16.000Z</published>
+    <updated>2019-09-05T08:02:33.239Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="来至-Uber-的面试题"><a href="#来至-Uber-的面试题" class="headerlink" title="来至 Uber 的面试题"></a>来至 Uber 的面试题</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个int型数组</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><ul><li>返回一个新的数组</li><li>要求新的数组的元素为当前<strong>i</strong>元素以外的所有元素的乘积</li></ul><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><h6 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h6><ul><li>给定数组 [1, 2, 3, 4, 5]  </li><li>输出数组为 [120, 60, 40, 30, 24]</li></ul><h6 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h6><ul><li>给定数组 [3, 2, 1]</li><li>输出数组为 [2, 3, 6]</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;来至-Uber-的面试题&quot;&gt;&lt;a href=&quot;#来至-Uber-的面试题&quot; class=&quot;headerlink&quot; title=&quot;来至 Uber 的面试题&quot;&gt;&lt;/a&gt;来至 Uber 的面试题&lt;/h4&gt;&lt;h5 id=&quot;条件&quot;&gt;&lt;a href=&quot;#条件&quot; class=&quot;
       
     
     </summary>
@@ -72,15 +98,15 @@
     <link href="http://xxsnake28.github.io/2019/09/04/google%E9%9D%A2%E8%AF%95%E9%A2%98-1/"/>
     <id>http://xxsnake28.github.io/2019/09/04/google面试题-1/</id>
     <published>2019-09-04T08:22:00.000Z</published>
-    <updated>2019-09-04T09:02:13.206Z</updated>
+    <updated>2019-09-05T08:02:17.647Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="Question-from-Google"><a href="#Question-from-Google" class="headerlink" title="Question from Google"></a>Question from Google</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个指定的数组（int类型），和指定数字k。</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><p>找到在数组中的两个数，两个数的和为指定数字k，返回是否存在。</p><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><ul><li>给定数组[10, 15, 3, 7]  </li><li>给定指定数字 17  </li><li>因10 + 7 = 17，故返回true</li></ul>]]></content>
+    <content type="html"><![CDATA[<h4 id="来至-Google-的面试题"><a href="#来至-Google-的面试题" class="headerlink" title="来至 Google 的面试题"></a>来至 Google 的面试题</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个指定的数组（int类型），和指定数字k。</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><p>找到在数组中的两个数，两个数的和为指定数字k，返回是否存在。</p><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><ul><li>给定数组[10, 15, 3, 7]  </li><li>给定指定数字 17  </li><li>因10 + 7 = 17，故返回true</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;Question-from-Google&quot;&gt;&lt;a href=&quot;#Question-from-Google&quot; class=&quot;headerlink&quot; title=&quot;Question from Google&quot;&gt;&lt;/a&gt;Question from Google&lt;/h4&gt;&lt;
+        &lt;h4 id=&quot;来至-Google-的面试题&quot;&gt;&lt;a href=&quot;#来至-Google-的面试题&quot; class=&quot;headerlink&quot; title=&quot;来至 Google 的面试题&quot;&gt;&lt;/a&gt;来至 Google 的面试题&lt;/h4&gt;&lt;h5 id=&quot;条件&quot;&gt;&lt;a href=&quot;#条件&quot;
       
     
     </summary>

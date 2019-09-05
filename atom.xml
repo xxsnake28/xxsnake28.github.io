@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bigboss.github.io/"/>
-  <updated>2019-09-04T09:02:13.206Z</updated>
+  <updated>2019-09-04T09:45:56.748Z</updated>
   <id>http://bigboss.github.io/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>uber面试题  #2</title>
+    <link href="http://bigboss.github.io/2019/09/04/uber%E9%9D%A2%E8%AF%95%E9%A2%98-2/"/>
+    <id>http://bigboss.github.io/2019/09/04/uber面试题-2/</id>
+    <published>2019-09-04T09:36:16.000Z</published>
+    <updated>2019-09-04T09:45:56.748Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Question-from-Uber"><a href="#Question-from-Uber" class="headerlink" title="Question from Uber"></a>Question from Uber</h4><h5 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h5><p>给定一个int型数组</p><h5 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h5><ul><li>返回一个新的数组</li><li>要求新的数组的元素为当前<strong>i</strong>元素以外的所有元素的乘积</li></ul><h5 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h5><h6 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h6><ul><li>给定数组 [1, 2, 3, 4, 5]  </li><li>输出数组为 [120, 60, 40, 30, 24]</li></ul><h6 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h6><ul><li>给定数组 [3, 2, 1]</li><li>输出数组为 [2, 3, 6]</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;Question-from-Uber&quot;&gt;&lt;a href=&quot;#Question-from-Uber&quot; class=&quot;headerlink&quot; title=&quot;Question from Uber&quot;&gt;&lt;/a&gt;Question from Uber&lt;/h4&gt;&lt;h5 id=&quot;条
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="http://bigboss.github.io/categories/interview-question/"/>
+    
+    
+      <category term="Uber" scheme="http://bigboss.github.io/tags/Uber/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go代理设置</title>
+    <link href="http://bigboss.github.io/2019/09/04/go%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://bigboss.github.io/2019/09/04/go代理设置/</id>
+    <published>2019-09-04T09:24:47.000Z</published>
+    <updated>2019-09-04T09:30:10.830Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-11版本之后"><a href="#1-11版本之后" class="headerlink" title="1.11版本之后"></a>1.11版本之后</h4><p>在环境变量中加入</p><figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export GOPROXY=https://goproxy.cn</span><br><span class="line">// 或者</span><br><span class="line">export GOPROXY=https://goproxy.io</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;1-11版本之后&quot;&gt;&lt;a href=&quot;#1-11版本之后&quot; class=&quot;headerlink&quot; title=&quot;1.11版本之后&quot;&gt;&lt;/a&gt;1.11版本之后&lt;/h4&gt;&lt;p&gt;在环境变量中加入&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://bigboss.github.io/categories/note/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>google面试题  #1</title>

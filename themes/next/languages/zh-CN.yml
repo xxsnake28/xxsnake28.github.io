@@ -34,6 +34,8 @@ post:
   untitled: 未命名
   sticky: 置顶
   views: 阅读次数
+  comments:
+    valine: 评论次数
   related_posts: 相关文章
   copy_button: 复制
   copy_success: 复制成功

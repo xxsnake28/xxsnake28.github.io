@@ -36,6 +36,8 @@ post:
   untitled: Untitled
   sticky: Sticky
   views: Views
+  comments:
+    valine: Valine
   related_posts: Related Posts
   copy_button: Copy
   copy_success: Copied

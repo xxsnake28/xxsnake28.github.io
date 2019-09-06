@@ -23,6 +23,7 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 
 <script id="hexo-configurations">
@@ -36,9 +37,9 @@
     copycode: {"enable":false,"show_result":false,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
+    fancybox: true,
     mediumzoom: false,
-    lazyload: false,
+    lazyload: true,
     pangu: false,
     algolia: {
       appID: '',
@@ -131,7 +132,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-        <p class="site-subtitle">懒才是我们前进的动力</p>
+        <h1 class="site-subtitle" itemprop="description">懒才是我们前进的动力</h1>
       
   </div>
 
@@ -257,11 +258,11 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
             
             <a href="/2019/09/05/hexo-next主题使用valine评论标题部分无法显示中文/" class="post-title-link" itemprop="url">hexo-next主题使用valine评论标题部分无法显示中文</a>
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -318,7 +319,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="无法显示中文的现象"><a href="#无法显示中文的现象" class="headerlink" title="无法显示中文的现象"></a>无法显示中文的现象</h1><p><img src="https://i.loli.net/2019/09/05/GeLzHs4p3cQCuWP.jpg" alt="显示的是英文"></p>
+          <h1 id="无法显示中文的现象"><a href="#无法显示中文的现象" class="headerlink" title="无法显示中文的现象"></a>无法显示中文的现象</h1><p><img alt="显示的是英文" data-src="https://i.loli.net/2019/09/05/GeLzHs4p3cQCuWP.jpg"></p>
 <h1 id="当前的软件环境"><a href="#当前的软件环境" class="headerlink" title="当前的软件环境"></a>当前的软件环境</h1><ul>
 <li>hexo版本 <code>3.9.0</code></li>
 <li>next版本 <code>7.4.0</code></li>
@@ -328,11 +329,11 @@
 
 <h1 id="造成问题的原因"><a href="#造成问题的原因" class="headerlink" title="造成问题的原因"></a>造成问题的原因</h1><p>由于主题在加载这部分内容时，跟其他的加载方式不一样，无法通过layout文件来调整。  </p>
 <h2 id="先看通常标题下方的标签的通用修改方式。"><a href="#先看通常标题下方的标签的通用修改方式。" class="headerlink" title="先看通常标题下方的标签的通用修改方式。"></a>先看通常标题下方的标签的通用修改方式。</h2><p>打开<code>themes -&gt; next -&gt; layout -&gt; menu -&gt; post.swig</code></p>
-<p>如下图，为相关代码的地方<br><img src="https://i.loli.net/2019/09/05/lLfCB3vnFYwXhWT.jpg" alt="2.jpg"></p>
+<p>如下图，为相关代码的地方<br><img alt="2.jpg" data-src="https://i.loli.net/2019/09/05/lLfCB3vnFYwXhWT.jpg"></p>
 <p>这段代码显示了这块的相关的配置</p>
-<h2 id="找到根源文件"><a href="#找到根源文件" class="headerlink" title="找到根源文件"></a>找到根源文件</h2><p>打开<code>themes -&gt; next -&gt; scripts -&gt; filters -&gt; comment -&gt; valine.js</code>，如图<br><img src="https://i.loli.net/2019/09/05/ofpWj8LyGMs7hZE.jpg" alt="3.jpg"></p>
+<h2 id="找到根源文件"><a href="#找到根源文件" class="headerlink" title="找到根源文件"></a>找到根源文件</h2><p>打开<code>themes -&gt; next -&gt; scripts -&gt; filters -&gt; comment -&gt; valine.js</code>，如图<br><img alt="3.jpg" data-src="https://i.loli.net/2019/09/05/ofpWj8LyGMs7hZE.jpg"></p>
 <p>这里关键是<code>iconText</code>函数</p>
-<p>打开同目录下的<code>common.js</code>，如图<br><img src="https://i.loli.net/2019/09/05/jigHJdzRBep7bW5.jpg" alt="Jietu20190905-183014.jpg"><br>可以看到对应的参数值需要<code>post.comments.valine</code></p>
+<p>打开同目录下的<code>common.js</code>，如图<br><img alt="Jietu20190905-183014.jpg" data-src="https://i.loli.net/2019/09/05/jigHJdzRBep7bW5.jpg"><br>可以看到对应的参数值需要<code>post.comments.valine</code></p>
 
         
       
@@ -369,11 +370,11 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
             
             <a href="/2019/09/05/google面试题-3/" class="post-title-link" itemprop="url">google面试题 #3</a>
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -477,11 +478,11 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
             
             <a href="/2019/09/04/uber面试题-2/" class="post-title-link" itemprop="url">uber面试题  #2</a>
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -595,11 +596,11 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
             
             <a href="/2019/09/04/go代理设置/" class="post-title-link" itemprop="url">go代理设置</a>
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -703,11 +704,11 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
             
             <a href="/2019/09/04/google面试题-1/" class="post-title-link" itemprop="url">google面试题  #1</a>
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -815,11 +816,11 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
+        <h2 class="post-title" itemprop="name headline">
             
             <a href="/2019/09/03/npm-yarn换源/" class="post-title-link" itemprop="url">npm&yarn换源</a>
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -1080,6 +1081,9 @@
   <script src="/lib/anime.min.js?v=3.1.0"></script>
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
 <script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
 <script src="/js/schemes/pisces.js?v=7.4.0"></script>
 <script src="/js/next-boot.js?v=7.4.0"></script>

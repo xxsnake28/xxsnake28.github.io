@@ -23,6 +23,7 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 
 <script id="hexo-configurations">
@@ -36,9 +37,9 @@
     copycode: {"enable":false,"show_result":false,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
+    fancybox: true,
     mediumzoom: false,
-    lazyload: false,
+    lazyload: true,
     pangu: false,
     algolia: {
       appID: '',
@@ -67,15 +68,10 @@
 <meta property="og:site_name" content="懒人聚集地">
 <meta property="og:description" content="无法显示中文的现象 当前的软件环境 hexo版本 3.9.0 next版本 7.4.0  修改的办法打开themes -&amp;gt; next -&amp;gt; languages -&amp;gt; zh-CN.yml 123# 在post标签下添加如下代码comments:    valine: 评论次数 # 这里的中文随便自己定义  造成问题的原因由于主题在加载这部分内容时，跟其他的加载方式不一样，无法通过l">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://i.loli.net/2019/09/05/GeLzHs4p3cQCuWP.jpg">
-<meta property="og:image" content="https://i.loli.net/2019/09/05/lLfCB3vnFYwXhWT.jpg">
-<meta property="og:image" content="https://i.loli.net/2019/09/05/ofpWj8LyGMs7hZE.jpg">
-<meta property="og:image" content="https://i.loli.net/2019/09/05/jigHJdzRBep7bW5.jpg">
 <meta property="og:updated_time" content="2019-09-05T10:35:47.750Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题使用valine评论标题部分无法显示中文">
 <meta name="twitter:description" content="无法显示中文的现象 当前的软件环境 hexo版本 3.9.0 next版本 7.4.0  修改的办法打开themes -&amp;gt; next -&amp;gt; languages -&amp;gt; zh-CN.yml 123# 在post标签下添加如下代码comments:    valine: 评论次数 # 这里的中文随便自己定义  造成问题的原因由于主题在加载这部分内容时，跟其他的加载方式不一样，无法通过l">
-<meta name="twitter:image" content="https://i.loli.net/2019/09/05/GeLzHs4p3cQCuWP.jpg">
   <link rel="canonical" href="http://xxsnake28.github.io/2019/09/05/hexo-next主题使用valine评论标题部分无法显示中文/">
 
 
@@ -141,7 +137,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-        <p class="site-subtitle">懒才是我们前进的动力</p>
+        <h1 class="site-subtitle" itemprop="description">懒才是我们前进的动力</h1>
       
   </div>
 
@@ -268,10 +264,10 @@
       <meta itemprop="name" content="懒人聚集地">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">hexo-next主题使用valine评论标题部分无法显示中文
+        <h2 class="post-title" itemprop="name headline">hexo-next主题使用valine评论标题部分无法显示中文
 
           
-        </h1>
+        </h2>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -336,7 +332,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="无法显示中文的现象"><a href="#无法显示中文的现象" class="headerlink" title="无法显示中文的现象"></a>无法显示中文的现象</h1><p><img src="https://i.loli.net/2019/09/05/GeLzHs4p3cQCuWP.jpg" alt="显示的是英文"></p>
+        <h1 id="无法显示中文的现象"><a href="#无法显示中文的现象" class="headerlink" title="无法显示中文的现象"></a>无法显示中文的现象</h1><p><img alt="显示的是英文" data-src="https://i.loli.net/2019/09/05/GeLzHs4p3cQCuWP.jpg"></p>
 <h1 id="当前的软件环境"><a href="#当前的软件环境" class="headerlink" title="当前的软件环境"></a>当前的软件环境</h1><ul>
 <li>hexo版本 <code>3.9.0</code></li>
 <li>next版本 <code>7.4.0</code></li>
@@ -346,11 +342,11 @@
 
 <h1 id="造成问题的原因"><a href="#造成问题的原因" class="headerlink" title="造成问题的原因"></a>造成问题的原因</h1><p>由于主题在加载这部分内容时，跟其他的加载方式不一样，无法通过layout文件来调整。  </p>
 <h2 id="先看通常标题下方的标签的通用修改方式。"><a href="#先看通常标题下方的标签的通用修改方式。" class="headerlink" title="先看通常标题下方的标签的通用修改方式。"></a>先看通常标题下方的标签的通用修改方式。</h2><p>打开<code>themes -&gt; next -&gt; layout -&gt; menu -&gt; post.swig</code></p>
-<p>如下图，为相关代码的地方<br><img src="https://i.loli.net/2019/09/05/lLfCB3vnFYwXhWT.jpg" alt="2.jpg"></p>
+<p>如下图，为相关代码的地方<br><img alt="2.jpg" data-src="https://i.loli.net/2019/09/05/lLfCB3vnFYwXhWT.jpg"></p>
 <p>这段代码显示了这块的相关的配置</p>
-<h2 id="找到根源文件"><a href="#找到根源文件" class="headerlink" title="找到根源文件"></a>找到根源文件</h2><p>打开<code>themes -&gt; next -&gt; scripts -&gt; filters -&gt; comment -&gt; valine.js</code>，如图<br><img src="https://i.loli.net/2019/09/05/ofpWj8LyGMs7hZE.jpg" alt="3.jpg"></p>
+<h2 id="找到根源文件"><a href="#找到根源文件" class="headerlink" title="找到根源文件"></a>找到根源文件</h2><p>打开<code>themes -&gt; next -&gt; scripts -&gt; filters -&gt; comment -&gt; valine.js</code>，如图<br><img alt="3.jpg" data-src="https://i.loli.net/2019/09/05/ofpWj8LyGMs7hZE.jpg"></p>
 <p>这里关键是<code>iconText</code>函数</p>
-<p>打开同目录下的<code>common.js</code>，如图<br><img src="https://i.loli.net/2019/09/05/jigHJdzRBep7bW5.jpg" alt="Jietu20190905-183014.jpg"><br>可以看到对应的参数值需要<code>post.comments.valine</code></p>
+<p>打开同目录下的<code>common.js</code>，如图<br><img alt="Jietu20190905-183014.jpg" data-src="https://i.loli.net/2019/09/05/jigHJdzRBep7bW5.jpg"><br>可以看到对应的参数值需要<code>post.comments.valine</code></p>
 
     </div>
 
@@ -583,6 +579,9 @@
   <script src="/lib/anime.min.js?v=3.1.0"></script>
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
 <script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
 <script src="/js/schemes/pisces.js?v=7.4.0"></script>
 <script src="/js/next-boot.js?v=7.4.0"></script>

@@ -1,4 +1,5 @@
-User-agent: * Allow: /
+User-agent: * 
+Allow: /
 Allow: /archives/
 Disallow: /vendors/
 Disallow: /js/
@@ -8,4 +9,3 @@ Disallow: /vendors/
 Disallow: /fancybox/
 Sitemap: https://xxsnake28.coding.me/sitemap.xml
 Sitemap: https://xxsnake28.coding.me/baidusitemap.xml
-

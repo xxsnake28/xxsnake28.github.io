@@ -8,3 +8,5 @@ Disallow: /vendors/
 Disallow: /fancybox/
 Sitemap: https://xxsnake28.github.io/sitemap.xml
 Sitemap: https://xxsnake28.github.io/baidusitemap.xml
+Sitemap: http://xxsnake28.coding.me/sitemap.xml
+Sitemap: http://xxsnake28.coding.me/baidusitemap.xml

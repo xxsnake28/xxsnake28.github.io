@@ -5,9 +5,9 @@
   <subtitle>懒才是我们前进的动力</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://xxsnake28.coding.me/"/>
+  <link href="https://xxsnake28.github.io/"/>
   <updated>2019-09-09T08:31:29.477Z</updated>
-  <id>https://xxsnake28.coding.me/</id>
+  <id>https://xxsnake28.github.io/</id>
   
   <author>
     <name>bigboss</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Airbnb面试题 #5</title>
-    <link href="https://xxsnake28.coding.me/2019/09/09/airbnb-interview-question-5/"/>
-    <id>https://xxsnake28.coding.me/2019/09/09/airbnb-interview-question-5/</id>
+    <link href="https://xxsnake28.github.io/2019/09/09/airbnb-interview-question-5/"/>
+    <id>https://xxsnake28.github.io/2019/09/09/airbnb-interview-question-5/</id>
     <published>2019-09-09T08:26:27.000Z</published>
     <updated>2019-09-09T08:31:29.477Z</updated>
     
@@ -36,17 +36,17 @@
     </summary>
     
     
-      <category term="interview-question" scheme="https://xxsnake28.coding.me/categories/interview-question/"/>
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="airbnb" scheme="https://xxsnake28.coding.me/tags/airbnb/"/>
+      <category term="airbnb" scheme="https://xxsnake28.github.io/tags/airbnb/"/>
     
   </entry>
   
   <entry>
     <title>Facebook面试题 #4</title>
-    <link href="https://xxsnake28.coding.me/2019/09/09/facebook-interview-question-4/"/>
-    <id>https://xxsnake28.coding.me/2019/09/09/facebook-interview-question-4/</id>
+    <link href="https://xxsnake28.github.io/2019/09/09/facebook-interview-question-4/"/>
+    <id>https://xxsnake28.github.io/2019/09/09/facebook-interview-question-4/</id>
     <published>2019-09-09T08:11:45.000Z</published>
     <updated>2019-09-09T08:15:50.051Z</updated>
     
@@ -66,17 +66,17 @@
     </summary>
     
     
-      <category term="interview-question" scheme="https://xxsnake28.coding.me/categories/interview-question/"/>
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="facebook" scheme="https://xxsnake28.coding.me/tags/facebook/"/>
+      <category term="facebook" scheme="https://xxsnake28.github.io/tags/facebook/"/>
     
   </entry>
   
   <entry>
     <title>BFC(box formatting context)详解</title>
-    <link href="https://xxsnake28.coding.me/2019/09/09/bfc-box-formatting-context-attributes/"/>
-    <id>https://xxsnake28.coding.me/2019/09/09/bfc-box-formatting-context-attributes/</id>
+    <link href="https://xxsnake28.github.io/2019/09/09/bfc-box-formatting-context-attributes/"/>
+    <id>https://xxsnake28.github.io/2019/09/09/bfc-box-formatting-context-attributes/</id>
     <published>2019-09-09T07:20:32.000Z</published>
     <updated>2019-09-09T07:43:06.967Z</updated>
     
@@ -92,17 +92,17 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.coding.me/categories/note/"/>
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
-      <category term="bfc" scheme="https://xxsnake28.coding.me/tags/bfc/"/>
+      <category term="bfc" scheme="https://xxsnake28.github.io/tags/bfc/"/>
     
   </entry>
   
   <entry>
     <title>css/css3的display属性的主要类型详解</title>
-    <link href="https://xxsnake28.coding.me/2019/09/09/css-css3-display-attributes/"/>
-    <id>https://xxsnake28.coding.me/2019/09/09/css-css3-display-attributes/</id>
+    <link href="https://xxsnake28.github.io/2019/09/09/css-css3-display-attributes/"/>
+    <id>https://xxsnake28.github.io/2019/09/09/css-css3-display-attributes/</id>
     <published>2019-09-09T06:33:11.000Z</published>
     <updated>2019-09-09T07:17:32.484Z</updated>
     
@@ -118,17 +118,17 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.coding.me/categories/note/"/>
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
-      <category term="css/css3" scheme="https://xxsnake28.coding.me/tags/css-css3/"/>
+      <category term="css/css3" scheme="https://xxsnake28.github.io/tags/css-css3/"/>
     
   </entry>
   
   <entry>
     <title>ua(user-agent)判断浏览器或设备信息(微信，app等)，较完整版</title>
-    <link href="https://xxsnake28.coding.me/2019/09/06/user-agent-check/"/>
-    <id>https://xxsnake28.coding.me/2019/09/06/user-agent-check/</id>
+    <link href="https://xxsnake28.github.io/2019/09/06/user-agent-check/"/>
+    <id>https://xxsnake28.github.io/2019/09/06/user-agent-check/</id>
     <published>2019-09-06T07:06:21.000Z</published>
     <updated>2019-09-06T07:37:55.077Z</updated>
     
@@ -145,17 +145,17 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.coding.me/categories/note/"/>
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
-      <category term="user-agent" scheme="https://xxsnake28.coding.me/tags/user-agent/"/>
+      <category term="user-agent" scheme="https://xxsnake28.github.io/tags/user-agent/"/>
     
   </entry>
   
   <entry>
     <title>hexo-next主题使用valine评论标题部分无法显示中文</title>
-    <link href="https://xxsnake28.coding.me/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/"/>
-    <id>https://xxsnake28.coding.me/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/</id>
+    <link href="https://xxsnake28.github.io/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/"/>
+    <id>https://xxsnake28.github.io/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/</id>
     <published>2019-09-05T09:57:14.000Z</published>
     <updated>2019-09-05T10:35:47.750Z</updated>
     
@@ -171,21 +171,21 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.coding.me/categories/note/"/>
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
-      <category term="hexo" scheme="https://xxsnake28.coding.me/tags/hexo/"/>
+      <category term="hexo" scheme="https://xxsnake28.github.io/tags/hexo/"/>
     
-      <category term="next" scheme="https://xxsnake28.coding.me/tags/next/"/>
+      <category term="next" scheme="https://xxsnake28.github.io/tags/next/"/>
     
-      <category term="valine" scheme="https://xxsnake28.coding.me/tags/valine/"/>
+      <category term="valine" scheme="https://xxsnake28.github.io/tags/valine/"/>
     
   </entry>
   
   <entry>
     <title>google面试题 #3</title>
-    <link href="https://xxsnake28.coding.me/2019/09/05/google-interview-question-3/"/>
-    <id>https://xxsnake28.coding.me/2019/09/05/google-interview-question-3/</id>
+    <link href="https://xxsnake28.github.io/2019/09/05/google-interview-question-3/"/>
+    <id>https://xxsnake28.github.io/2019/09/05/google-interview-question-3/</id>
     <published>2019-09-05T08:04:41.000Z</published>
     <updated>2019-09-09T07:48:14.933Z</updated>
     
@@ -201,17 +201,17 @@
     </summary>
     
     
-      <category term="interview-question" scheme="https://xxsnake28.coding.me/categories/interview-question/"/>
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="Google" scheme="https://xxsnake28.coding.me/tags/Google/"/>
+      <category term="Google" scheme="https://xxsnake28.github.io/tags/Google/"/>
     
   </entry>
   
   <entry>
     <title>uber面试题  #2</title>
-    <link href="https://xxsnake28.coding.me/2019/09/04/uber-interview-question-2/"/>
-    <id>https://xxsnake28.coding.me/2019/09/04/uber-interview-question-2/</id>
+    <link href="https://xxsnake28.github.io/2019/09/04/uber-interview-question-2/"/>
+    <id>https://xxsnake28.github.io/2019/09/04/uber-interview-question-2/</id>
     <published>2019-09-04T09:36:16.000Z</published>
     <updated>2019-09-09T07:48:14.929Z</updated>
     
@@ -227,17 +227,17 @@
     </summary>
     
     
-      <category term="interview-question" scheme="https://xxsnake28.coding.me/categories/interview-question/"/>
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="Uber" scheme="https://xxsnake28.coding.me/tags/Uber/"/>
+      <category term="Uber" scheme="https://xxsnake28.github.io/tags/Uber/"/>
     
   </entry>
   
   <entry>
     <title>go代理设置</title>
-    <link href="https://xxsnake28.coding.me/2019/09/04/go-proxy-setting/"/>
-    <id>https://xxsnake28.coding.me/2019/09/04/go-proxy-setting/</id>
+    <link href="https://xxsnake28.github.io/2019/09/04/go-proxy-setting/"/>
+    <id>https://xxsnake28.github.io/2019/09/04/go-proxy-setting/</id>
     <published>2019-09-04T09:24:47.000Z</published>
     <updated>2019-09-05T10:08:55.129Z</updated>
     
@@ -254,15 +254,15 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.coding.me/categories/note/"/>
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
   </entry>
   
   <entry>
     <title>google面试题  #1</title>
-    <link href="https://xxsnake28.coding.me/2019/09/04/google-interview-question-1/"/>
-    <id>https://xxsnake28.coding.me/2019/09/04/google-interview-question-1/</id>
+    <link href="https://xxsnake28.github.io/2019/09/04/google-interview-question-1/"/>
+    <id>https://xxsnake28.github.io/2019/09/04/google-interview-question-1/</id>
     <published>2019-09-04T08:22:00.000Z</published>
     <updated>2019-09-09T07:48:14.931Z</updated>
     
@@ -278,17 +278,17 @@
     </summary>
     
     
-      <category term="interview-question" scheme="https://xxsnake28.coding.me/categories/interview-question/"/>
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="Google" scheme="https://xxsnake28.coding.me/tags/Google/"/>
+      <category term="Google" scheme="https://xxsnake28.github.io/tags/Google/"/>
     
   </entry>
   
   <entry>
     <title>npm&amp;yarn换源</title>
-    <link href="https://xxsnake28.coding.me/2019/09/03/npm-yarn-source-change/"/>
-    <id>https://xxsnake28.coding.me/2019/09/03/npm-yarn-source-change/</id>
+    <link href="https://xxsnake28.github.io/2019/09/03/npm-yarn-source-change/"/>
+    <id>https://xxsnake28.github.io/2019/09/03/npm-yarn-source-change/</id>
     <published>2019-09-03T10:10:00.000Z</published>
     <updated>2019-09-05T10:08:00.371Z</updated>
     
@@ -311,7 +311,7 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.coding.me/categories/note/"/>
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
   </entry>

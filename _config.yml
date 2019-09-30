@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xxsnake28.github.io
+url: https://xxsnake28.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,5 +99,8 @@ admin:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+#  repo:
+#    github: git@github.com:xxsnake28/bigboss.github.io.git,master
+#    coding: git@git.coding.net:xxsnake28/xxsnake28.git,master
   repository: git@github.com:xxsnake28/bigboss.github.io.git
   branch: master

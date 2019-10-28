@@ -1,6 +1,9 @@
 title: npm&yarn换源
 author: bigboss
-tags: []
+tags: 
+  - 大前端
+  - 大后端
+  - npm&yarn
 categories:
   - note
 date: 2019-09-03 18:10:00

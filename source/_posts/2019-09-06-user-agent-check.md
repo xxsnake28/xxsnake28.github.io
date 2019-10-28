@@ -4,6 +4,7 @@ categories: note
 date: 2019-09-06 15:06:21
 tags:
   - user-agent
+  - 大前端
 ---
 
 通过浏览器的userAgent判断各类设备信息，浏览器类型等

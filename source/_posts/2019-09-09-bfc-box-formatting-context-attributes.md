@@ -2,7 +2,9 @@
 title: 'BFC(box formatting context)详解'
 categories: note
 date: 2019-09-09 15:20:32
-tags: bfc
+tags: 
+  - bfc
+  - 大前端
 ---
 # BFC是个啥？
 在解释 BFC 是什么之前，需要先介绍 Box、Formatting Context的概念。

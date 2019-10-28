@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xxsnake28.github.io/"/>
-  <updated>2019-09-30T10:32:22.075Z</updated>
+  <updated>2019-10-28T06:37:53.075Z</updated>
   <id>https://xxsnake28.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>javascript/js 小数转整数方法</title>
+    <link href="https://xxsnake28.github.io/2019/10/28/js-decimal-to-integer/"/>
+    <id>https://xxsnake28.github.io/2019/10/28/js-decimal-to-integer/</id>
+    <published>2019-10-28T06:30:30.000Z</published>
+    <updated>2019-10-28T06:37:53.075Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="丢弃小数部分，只保留整数"><a href="#丢弃小数部分，只保留整数" class="headerlink" title="丢弃小数部分，只保留整数"></a>丢弃小数部分，只保留整数</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">parseInt</span>(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="向上取整-有小数就整数部分加1"><a href="#向上取整-有小数就整数部分加1" class="headerlink" title="向上取整,有小数就整数部分加1"></a>向上取整,有小数就整数部分加1</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.ceil(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="进行四舍五入"><a href="#进行四舍五入" class="headerlink" title="进行四舍五入"></a>进行四舍五入</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.round(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="向下取整"><a href="#向下取整" class="headerlink" title="向下取整"></a>向下取整</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.floor(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;丢弃小数部分，只保留整数&quot;&gt;&lt;a href=&quot;#丢弃小数部分，只保留整数&quot; class=&quot;headerlink&quot; title=&quot;丢弃小数部分，只保留整数&quot;&gt;&lt;/a&gt;丢弃小数部分，只保留整数&lt;/h4&gt;&lt;figure class=&quot;highlight javascri
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
+    
+    
+      <category term="大前端" scheme="https://xxsnake28.github.io/tags/%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="javascript" scheme="https://xxsnake28.github.io/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>css/css3 中的float详解</title>

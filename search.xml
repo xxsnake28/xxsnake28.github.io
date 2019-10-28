@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>javascript/js 小数转整数方法</title>
+      <link href="/2019/10/28/js-decimal-to-integer/"/>
+      <url>/2019/10/28/js-decimal-to-integer/</url>
+      
+        <content type="html"><![CDATA[<h4 id="丢弃小数部分，只保留整数"><a href="#丢弃小数部分，只保留整数" class="headerlink" title="丢弃小数部分，只保留整数"></a>丢弃小数部分，只保留整数</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">parseInt</span>(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="向上取整-有小数就整数部分加1"><a href="#向上取整-有小数就整数部分加1" class="headerlink" title="向上取整,有小数就整数部分加1"></a>向上取整,有小数就整数部分加1</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.ceil(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="进行四舍五入"><a href="#进行四舍五入" class="headerlink" title="进行四舍五入"></a>进行四舍五入</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.round(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="向下取整"><a href="#向下取整" class="headerlink" title="向下取整"></a>向下取整</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.floor(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大前端 </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>css/css3 中的float详解</title>
       <link href="/2019/09/30/css-css3-float-attribute/"/>
       <url>/2019/09/30/css-css3-float-attribute/</url>

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>git代理设置</title>
+      <link href="/2019/11/12/git-proxy-setting/"/>
+      <url>/2019/11/12/git-proxy-setting/</url>
+      
+        <content type="html"><![CDATA[<h1 id="git-设置代理"><a href="#git-设置代理" class="headerlink" title="git 设置代理"></a>git 设置代理</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:1080</span><br><span class="line"></span><br><span class="line">git config --global https.proxy http://127.0.0.1:1080</span><br></pre></td></tr></table></figure><h1 id="git-取消代理"><a href="#git-取消代理" class="headerlink" title="git 取消代理"></a>git 取消代理</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line"></span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>javascript/js 小数转整数方法</title>
       <link href="/2019/10/28/js-decimal-to-integer/"/>
       <url>/2019/10/28/js-decimal-to-integer/</url>

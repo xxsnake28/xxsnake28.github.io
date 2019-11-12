@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xxsnake28.github.io/"/>
-  <updated>2019-10-28T06:37:53.075Z</updated>
+  <updated>2019-11-12T06:34:31.779Z</updated>
   <id>https://xxsnake28.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git代理设置</title>
+    <link href="https://xxsnake28.github.io/2019/11/12/git-proxy-setting/"/>
+    <id>https://xxsnake28.github.io/2019/11/12/git-proxy-setting/</id>
+    <published>2019-11-12T06:31:07.000Z</published>
+    <updated>2019-11-12T06:34:31.779Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-设置代理"><a href="#git-设置代理" class="headerlink" title="git 设置代理"></a>git 设置代理</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:1080</span><br><span class="line"></span><br><span class="line">git config --global https.proxy http://127.0.0.1:1080</span><br></pre></td></tr></table></figure><h1 id="git-取消代理"><a href="#git-取消代理" class="headerlink" title="git 取消代理"></a>git 取消代理</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line"></span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git-设置代理&quot;&gt;&lt;a href=&quot;#git-设置代理&quot; class=&quot;headerlink&quot; title=&quot;git 设置代理&quot;&gt;&lt;/a&gt;git 设置代理&lt;/h1&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
+    
+    
+      <category term="git" scheme="https://xxsnake28.github.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>javascript/js 小数转整数方法</title>

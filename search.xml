@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>前端网站域名跳转方法</title>
+      <link href="/2019/12/10/website-domain-redirect/"/>
+      <url>/2019/12/10/website-domain-redirect/</url>
+      
+        <content type="html"><![CDATA[<h1 id="域名若干秒后跳转"><a href="#域名若干秒后跳转" class="headerlink" title="域名若干秒后跳转"></a>域名若干秒后跳转</h1><p>可以在html代码的<code>&lt;head&gt;&lt;/head&gt;</code>部分加上这样的域名跳转代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"refresh"</span> <span class="attr">content</span>=<span class="string">"3; url=http://需要跳转的域名"</span>&gt;</span></span><br></pre></td></tr></table></figure><blockquote><p>content中的数字表示停留时间</p></blockquote><h1 id="不隐藏跳转后的地址"><a href="#不隐藏跳转后的地址" class="headerlink" title="不隐藏跳转后的地址"></a>不隐藏跳转后的地址</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"refresh"</span> <span class="attr">content</span>=<span class="string">"0.1;url=将这里改成要跳转的域名"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><h1 id="隐藏跳转后的地址"><a href="#隐藏跳转后的地址" class="headerlink" title="隐藏跳转后的地址"></a>隐藏跳转后的地址</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">frameset</span> <span class="attr">framespacing</span>=<span class="string">"0"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">rows</span>=<span class="string">"0"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">frame</span> <span class="attr">name</span>=<span class="string">"main"</span> <span class="attr">src</span>=<span class="string">"将这里改成要跳转的域名"</span> <span class="attr">scrolling</span>=<span class="string">"auto"</span> <span class="attr">noresize</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">frameset</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><h1 id="让域名在客户端跳转"><a href="#让域名在客户端跳转" class="headerlink" title="让域名在客户端跳转"></a>让域名在客户端跳转</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">"javascript"</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"><span class="built_in">window</span>.location=<span class="string">"http://将这里改成要跳转的域名"</span>;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大前端 </tag>
+            
+            <tag> 域名 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>git代理设置</title>
       <link href="/2019/11/12/git-proxy-setting/"/>
       <url>/2019/11/12/git-proxy-setting/</url>

@@ -1,13 +1,13 @@
 ---
-title: 'Airbnb面试题 #5'
+title: '#5 Airbnb面试题'
 categories: interview-question
 date: 2019-09-09 16:26:27
-tags: airbnb
+tags: Airbnb
 ---
-# 条件
+# 题目
 给定指定整型数组，该数组可以包含0和负数
 
-# 需求
+要求：  
 - 找到从头开始非相邻的所有元素的和
 - 相邻元素如果相同则跳过
 - 需要尽量保证O(N)足够小

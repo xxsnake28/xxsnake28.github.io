@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xxsnake28.github.io/"/>
-  <updated>2019-12-10T09:46:22.105Z</updated>
+  <updated>2019-12-17T05:39:29.868Z</updated>
   <id>https://xxsnake28.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#6 Apple面试题</title>
+    <link href="https://xxsnake28.github.io/2019/12/17/apple-interview-question-6/"/>
+    <id>https://xxsnake28.github.io/2019/12/17/apple-interview-question-6/</id>
+    <published>2019-12-17T05:28:43.000Z</published>
+    <updated>2019-12-17T05:39:29.868Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h1><p>给定一个指定函数f()，一个指定的整数n  </p><h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>实现一个调度器，在n毫秒后执行函数f</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;条件&quot;&gt;&lt;a href=&quot;#条件&quot; class=&quot;headerlink&quot; title=&quot;条件&quot;&gt;&lt;/a&gt;条件&lt;/h1&gt;&lt;p&gt;给定一个指定函数f()，一个指定的整数n  &lt;/p&gt;
+&lt;h1 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
+    
+    
+      <category term="Apple" scheme="https://xxsnake28.github.io/tags/Apple/"/>
+    
+  </entry>
   
   <entry>
     <title>前端网站域名跳转方法</title>
@@ -127,11 +154,11 @@
   </entry>
   
   <entry>
-    <title>Airbnb面试题 #5</title>
+    <title>#5 Airbnb面试题</title>
     <link href="https://xxsnake28.github.io/2019/09/09/airbnb-interview-question-5/"/>
     <id>https://xxsnake28.github.io/2019/09/09/airbnb-interview-question-5/</id>
     <published>2019-09-09T08:26:27.000Z</published>
-    <updated>2019-09-09T08:31:29.477Z</updated>
+    <updated>2019-12-17T05:39:21.004Z</updated>
     
     <content type="html"><![CDATA[<h1 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h1><p>给定指定整型数组，该数组可以包含0和负数</p><h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><ul><li>找到从头开始非相邻的所有元素的和</li><li>相邻元素如果相同则跳过</li><li>需要尽量保证O(N)足够小</li></ul><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><ul><li>给定数组 [2, 4, 6, 2, 5]，则获取元素分别为2，6，5，求和= 2 + 6 + 5 = 13。</li><li>给定数组 [5, 1, 1, 5], 则获取元素分别为5，5，求和= 5 + 5 = 10</li></ul>]]></content>
     
@@ -149,16 +176,16 @@
       <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="airbnb" scheme="https://xxsnake28.github.io/tags/airbnb/"/>
+      <category term="Airbnb" scheme="https://xxsnake28.github.io/tags/Airbnb/"/>
     
   </entry>
   
   <entry>
-    <title>Facebook面试题 #4</title>
+    <title>#4 Facebook面试题</title>
     <link href="https://xxsnake28.github.io/2019/09/09/facebook-interview-question-4/"/>
     <id>https://xxsnake28.github.io/2019/09/09/facebook-interview-question-4/</id>
     <published>2019-09-09T08:11:45.000Z</published>
-    <updated>2019-09-09T08:15:50.051Z</updated>
+    <updated>2019-12-17T05:39:10.941Z</updated>
     
     <content type="html"><![CDATA[<h1 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h1><ul><li>给定一个map，形如 a=1,b=2,…z=26</li><li>给定一个指定数字字符串string</li></ul><h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>对指定string进行解码，求出有多少种解码方式</p><blockquote><p>字符串不允许是类似’001’这种</p></blockquote><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><ul><li>给定字符串’111’</li><li>可得到解码方式有3中，分别是’aaa’, ‘ak’, ‘ka’</li></ul>]]></content>
     
@@ -179,7 +206,7 @@
       <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
-      <category term="facebook" scheme="https://xxsnake28.github.io/tags/facebook/"/>
+      <category term="Facebook" scheme="https://xxsnake28.github.io/tags/Facebook/"/>
     
   </entry>
   
@@ -301,11 +328,11 @@
   </entry>
   
   <entry>
-    <title>google面试题 #3</title>
+    <title>#3 Google面试题</title>
     <link href="https://xxsnake28.github.io/2019/09/05/google-interview-question-3/"/>
     <id>https://xxsnake28.github.io/2019/09/05/google-interview-question-3/</id>
     <published>2019-09-05T08:04:41.000Z</published>
-    <updated>2019-09-09T07:48:14.933Z</updated>
+    <updated>2019-12-17T05:39:02.045Z</updated>
     
     <content type="html"><![CDATA[<h1 id="来至-Google-的面试题"><a href="#来至-Google-的面试题" class="headerlink" title="来至 Google 的面试题"></a>来至 Google 的面试题</h1><h2 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h2><p>给定一个二叉树</p><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul><li>编写序列化函数serialize(root)，表示从根路径开始序列化，将该二叉树序列化为字符串 <strong>s</strong></li><li>编写反序列化函数deserialize(s)，将该二叉树还原为对应的对象。</li></ul><h2 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h2><p>给定的二叉树如下：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Node</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, val, left=None, right=None)</span></span></span><br><span class="line">        self.val = val</span><br><span class="line">        self.left = left</span><br><span class="line">        self.right = right</span><br></pre></td></tr></table></figure><p>用下列代码验证是否有效</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node = Node(<span class="string">'root'</span>, Node(<span class="string">'left'</span>, Node(<span class="string">'left.left'</span>)), Node(<span class="string">'right'</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">assert</span> deserialize(serialize(node)).left.left.val == <span class="string">'left.left'</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -327,11 +354,11 @@
   </entry>
   
   <entry>
-    <title>uber面试题  #2</title>
+    <title>#2 Uber面试题</title>
     <link href="https://xxsnake28.github.io/2019/09/04/uber-interview-question-2/"/>
     <id>https://xxsnake28.github.io/2019/09/04/uber-interview-question-2/</id>
     <published>2019-09-04T09:36:16.000Z</published>
-    <updated>2019-09-09T07:48:14.929Z</updated>
+    <updated>2019-12-17T05:38:43.510Z</updated>
     
     <content type="html"><![CDATA[<h1 id="来至-Uber-的面试题"><a href="#来至-Uber-的面试题" class="headerlink" title="来至 Uber 的面试题"></a>来至 Uber 的面试题</h1><h2 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h2><p>给定一个int型数组</p><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul><li>返回一个新的数组</li><li>要求新的数组的元素为当前<strong>i</strong>元素以外的所有元素的乘积</li></ul><h2 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h2><h3 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h3><ul><li>给定数组 [1, 2, 3, 4, 5]  </li><li>输出数组为 [120, 60, 40, 30, 24]</li></ul><h3 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h3><ul><li>给定数组 [3, 2, 1]</li><li>输出数组为 [2, 3, 6]</li></ul>]]></content>
     
@@ -382,11 +409,11 @@
   </entry>
   
   <entry>
-    <title>google面试题  #1</title>
+    <title>#1 Google面试题</title>
     <link href="https://xxsnake28.github.io/2019/09/04/google-interview-question-1/"/>
     <id>https://xxsnake28.github.io/2019/09/04/google-interview-question-1/</id>
     <published>2019-09-04T08:22:00.000Z</published>
-    <updated>2019-09-09T07:48:14.931Z</updated>
+    <updated>2019-12-17T05:38:52.549Z</updated>
     
     <content type="html"><![CDATA[<h1 id="来至-Google-的面试题"><a href="#来至-Google-的面试题" class="headerlink" title="来至 Google 的面试题"></a>来至 Google 的面试题</h1><h2 id="条件"><a href="#条件" class="headerlink" title="条件"></a>条件</h2><p>给定一个指定的数组（int类型），和指定数字k。</p><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>找到在数组中的两个数，两个数的和为指定数字k，返回是否存在。</p><h2 id="例如"><a href="#例如" class="headerlink" title="例如"></a>例如</h2><ul><li>给定数组[10, 15, 3, 7]  </li><li>给定指定数字 17  </li><li>因10 + 7 = 17，故返回true</li></ul>]]></content>
     

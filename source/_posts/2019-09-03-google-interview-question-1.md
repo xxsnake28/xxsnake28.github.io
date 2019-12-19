@@ -1,10 +1,8 @@
 ---
 title: '#1 Google面试题'
 author: bigboss
-tags:
-  - Google
-categories:
-  - interview-question
+tags: Google
+categories: interview-question
 date: 2019-09-04 16:22:00
 ---
 # 题目

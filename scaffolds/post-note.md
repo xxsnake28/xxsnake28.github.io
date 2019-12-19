@@ -1,6 +1,6 @@
 ---
 title: {{ title }}  
 date: {{ date }}  
-categories: note 
+categories: note  
 tags:
 ---

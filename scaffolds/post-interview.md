@@ -1,6 +1,6 @@
 ---
 title: {{ title }}  
 date: {{ date }}  
-categories: interview-question  
+categories: interview-question
 tags:
 ---

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xxsnake28.github.io/"/>
-  <updated>2019-12-23T09:51:17.320Z</updated>
+  <updated>2019-12-23T09:55:48.644Z</updated>
   <id>https://xxsnake28.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xxsnake28.github.io/2019/12/23/twitter-interview-question-10/"/>
     <id>https://xxsnake28.github.io/2019/12/23/twitter-interview-question-10/</id>
     <published>2019-12-23T09:45:52.000Z</published>
-    <updated>2019-12-23T09:51:17.320Z</updated>
+    <updated>2019-12-23T09:55:48.644Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假如你有一个电商网站，我们将订单的ID按时间从新到旧记录到log文件中。</p><p>要求：</p><p>假如订单的ID的数量为N，我们需要提供给两个函数：</p><ul><li><code>record(order_id)</code>：添加订单ID到log中。</li><li><code>getLast(i)</code>：获取 <code>i</code> 条最新的订单列表。</li></ul><p>要求尽可能的以最高的效率实现</p>]]></content>
     
@@ -37,7 +37,7 @@
     </summary>
     
     
-      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
+      <category term="interview-question" scheme="https://xxsnake28.github.io/categories/interview-question/"/>
     
     
       <category term="Twitter" scheme="https://xxsnake28.github.io/tags/Twitter/"/>

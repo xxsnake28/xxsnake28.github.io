@@ -1,6 +1,6 @@
 ---
 title: '#10 Twitter面试题'
-categories: note
+categories: interview-question
 date: 2019-12-23 17:45:52
 tags: Twitter
 ---

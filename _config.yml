@@ -99,8 +99,8 @@ admin:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-#  repo:
-#    github: git@github.com:xxsnake28/bigboss.github.io.git,master
-#    coding: git@git.coding.net:xxsnake28/xxsnake28.git,master
-  repository: git@github.com:xxsnake28/bigboss.github.io.git
-  branch: master
+  repo:
+    github: git@github.com:xxsnake28/bigboss.github.io.git,master
+    gbook.xyz: git@gbook.xyz:/home/git/blog.git,master
+#  repository: git@github.com:xxsnake28/bigboss.github.io.git
+#  branch: master

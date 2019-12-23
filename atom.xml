@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xxsnake28.github.io/"/>
-  <updated>2019-12-19T05:34:25.720Z</updated>
+  <updated>2019-12-23T09:51:17.320Z</updated>
   <id>https://xxsnake28.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#10 Twitter面试题</title>
+    <link href="https://xxsnake28.github.io/2019/12/23/twitter-interview-question-10/"/>
+    <id>https://xxsnake28.github.io/2019/12/23/twitter-interview-question-10/</id>
+    <published>2019-12-23T09:45:52.000Z</published>
+    <updated>2019-12-23T09:51:17.320Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假如你有一个电商网站，我们将订单的ID按时间从新到旧记录到log文件中。</p><p>要求：</p><p>假如订单的ID的数量为N，我们需要提供给两个函数：</p><ul><li><code>record(order_id)</code>：添加订单ID到log中。</li><li><code>getLast(i)</code>：获取 <code>i</code> 条最新的订单列表。</li></ul><p>要求尽可能的以最高的效率实现</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;假如你有一个电商网站，我们将订单的ID按时间从新到旧记录到log文件中。&lt;/p&gt;
+&lt;p&gt;要求：&lt;/p&gt;
+&lt;p&gt;假如订单的ID的数量为N，我们
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
+    
+    
+      <category term="Twitter" scheme="https://xxsnake28.github.io/tags/Twitter/"/>
+    
+  </entry>
   
   <entry>
     <title>#9 Amazon面试题</title>
@@ -166,9 +194,9 @@
       <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
     
     
-      <category term="大后端" scheme="https://xxsnake28.github.io/tags/%E5%A4%A7%E5%90%8E%E7%AB%AF/"/>
-    
       <category term="大前端" scheme="https://xxsnake28.github.io/tags/%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="大后端" scheme="https://xxsnake28.github.io/tags/%E5%A4%A7%E5%90%8E%E7%AB%AF/"/>
     
       <category term="Regular" scheme="https://xxsnake28.github.io/tags/Regular/"/>
     
@@ -568,35 +596,6 @@
     
     
       <category term="Uber" scheme="https://xxsnake28.github.io/tags/Uber/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>go代理设置</title>
-    <link href="https://xxsnake28.github.io/2019/09/04/go-proxy-setting/"/>
-    <id>https://xxsnake28.github.io/2019/09/04/go-proxy-setting/</id>
-    <published>2019-09-04T09:24:47.000Z</published>
-    <updated>2019-09-30T08:51:41.067Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="1-11版本之后"><a href="#1-11版本之后" class="headerlink" title="1.11版本之后"></a>1.11版本之后</h1><p>在环境变量中加入</p><figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export GOPROXY=https://goproxy.cn</span><br><span class="line">// 或者</span><br><span class="line">export GOPROXY=https://goproxy.io</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;1-11版本之后&quot;&gt;&lt;a href=&quot;#1-11版本之后&quot; class=&quot;headerlink&quot; title=&quot;1.11版本之后&quot;&gt;&lt;/a&gt;1.11版本之后&lt;/h1&gt;&lt;p&gt;在环境变量中加入&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="note" scheme="https://xxsnake28.github.io/categories/note/"/>
-    
-    
-      <category term="大后端" scheme="https://xxsnake28.github.io/tags/%E5%A4%A7%E5%90%8E%E7%AB%AF/"/>
-    
-      <category term="go/golang" scheme="https://xxsnake28.github.io/tags/go-golang/"/>
     
   </entry>
   

@@ -45,6 +45,15 @@
 {%- if theme.baidu_site_verification %}
   <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}">
 {%- endif %}
+{% if theme.sogou_site_verification %}
+  <meta name="sogou_site_verification" content="{{ theme.sogou_site_verification }}"/>
+{% endif %}
+{% if theme.so_site_verification %}
+  <meta name="360-site-verification" content="{{ theme.so_site_verification }}"/>
+{% endif %}
+{% if theme.shenma_site_verification %}
+  <meta name="shenma-site-verification" content="{{ theme.shenma_site_verification }}"/>
+{% endif %}
 
 {%- if theme.facebook_sdk.enable and theme.facebook_sdk.webmaster %}
   <meta property="fb:admins" content="{{ theme.facebook_sdk.fb_admin }}">

@@ -7,5 +7,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://xxsnake28.github.io/sitemap.xml
-Sitemap: https://xxsnake28.github.io/baidusitemap.xml
+Sitemap: https://www.gbook.xyz/sitemap.xml
+Sitemap: https://www.gbook.xyz/baidusitemap.xml

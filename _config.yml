@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://xxsnake28.github.io
+url: https://www.gbook.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -88,6 +88,13 @@ search:
 #  total_symbols: true
 #  total_time: true
 #  exclude_codeblock: false
+
+# hexo-baidu-url-submit
+# baidu_url_submit:
+#   count: 10 ## 提交最新的五个链接
+#   host: www.gbook.xyz ## 百度站长平台中注册的域名
+#   token: 83f4QxDzBiBaECdv ## 准入秘钥
+#   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
 # hexo-admin authentification
 admin:

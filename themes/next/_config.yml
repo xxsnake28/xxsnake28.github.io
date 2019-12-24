@@ -169,7 +169,7 @@ menu:
   home: / || home
   note: /categories/note/ || book
   interview_question: /categories/interview-question/ || quora
-#  mac_tools: /categories/mac-tools/ || apple
+  mac_tools: /categories/mac-tools/ || apple
 #  win_tools: /categories/win-tools/ || windows
 #  my_app: /categories/my_app/ || app-store
   about: /about/ || user

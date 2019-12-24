@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>App Cleaner 3.5</title>
+      <link href="/2019/12/24/app-cleaner-3-5/"/>
+      <url>/2019/12/24/app-cleaner-3-5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>AppCleaner是一个出色的卸载程序，用于搜索和销毁在卸载过程中可能会遗留的文件。</p><p>在Mac上卸载应用程序并不仅仅意味着丢弃文件。<br>您经常需要检查库并删除应用程序支持和缓存文件。<br>像AppCleaner这样的卸载程序将确保删除所有不需要的文件。</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ul><li>清除已安装组件<br>AppCleaner具有简单的复选框卸载功能，还可以浏览已安装的应用程序，分为应用程序，小部件和其他 应用程序。<br>最后一个特别有用，因为它显示了您通常必须在应用程序库中进行挖掘的所有插件和组件。<br>AppCleaner甚至可以清除缓存和收据。</li><li>易于搜索和销毁应用程序<br>AppCleaner非常简单，这要归功于搜索功能可以更快地找到应用程序，而有用的SmartDelete将检测并删除相关项目。<br>您可以保护已启动和默认的应用程序和3D转换，并选择其他您不想删除的应用程序。<br>AppCleaner整体上非常易于使用 ，小界面非常清晰简洁。</li></ul><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img alt="效果图" data-src="https://i.loli.net/2019/12/24/IG3bPZtuScUvVJB.jpg"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>将解压后的文件拖到应用程序目录中即可使用</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-414823312" target="_blank" rel="noopener">https://t00y.com/file/16515554-414823312</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>申明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请使用后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> mac-tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Tools </tag>
+            
+            <tag> Mac-Tools </tag>
+            
+            <tag> Cleaner </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>#10 Twitter面试题</title>
       <link href="/2019/12/23/twitter-interview-question-10/"/>
       <url>/2019/12/23/twitter-interview-question-10/</url>
@@ -149,9 +180,9 @@
       
         <tags>
             
-            <tag> 大后端 </tag>
-            
             <tag> 大前端 </tag>
+            
+            <tag> 大后端 </tag>
             
             <tag> Regular </tag>
             
@@ -598,9 +629,9 @@
       
         <tags>
             
-            <tag> 大后端 </tag>
-            
             <tag> 大前端 </tag>
+            
+            <tag> 大后端 </tag>
             
             <tag> npm&amp;yarn </tag>
             

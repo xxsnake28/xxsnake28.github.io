@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.gbook.xyz/about/index.html</loc>
+    
+    <lastmod>2019-12-24T07:12:24.764Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.gbook.xyz/2019/12/24/app-cleaner-3-5/</loc>
+    
+    <lastmod>2019-12-24T07:10:21.418Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.gbook.xyz/2019/12/23/twitter-interview-question-10/</loc>
     
     <lastmod>2019-12-23T09:55:48.644Z</lastmod>
@@ -159,13 +173,6 @@
     <loc>https://www.gbook.xyz/2019/09/09/bfc-box-formatting-context-attributes/</loc>
     
     <lastmod>2019-09-30T08:51:41.042Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.gbook.xyz/about/index.html</loc>
-    
-    <lastmod>2019-09-06T08:37:42.718Z</lastmod>
     
   </url>
   

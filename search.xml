@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>#13 Facebook 面试题</title>
+      <link href="/2019/12/30/facebook-interview-question-13/"/>
+      <url>/2019/12/30/facebook-interview-question-13/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>现有一个方块矩阵，包含了 <code>K</code>行以及 <code>N</code> 列。</p><p>并且有 <code>N</code> 种颜色（此处的N和上方的N相同）。</p><p>要求：<br>在相邻两个方块不能为同一种颜色。<br>请列出方块的模型，并列出每种颜色的使用次数。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>K = 3， N = 3。<br>颜色分别为red(R), Black(B), White(W)<br>排列如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   R  B  W</span><br><span class="line">   B  W  R</span><br><span class="line">   W  B  W</span><br><span class="line"></span><br><span class="line"># 其中 red = 2, black = 3, white = 4</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Facebook </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Wordpress 全局字体的设置方法</title>
       <link href="/2019/12/30/wordpress-global-font/"/>
       <url>/2019/12/30/wordpress-global-font/</url>

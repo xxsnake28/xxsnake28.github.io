@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2019-12-30T08:14:12.858Z</updated>
+  <updated>2019-12-30T09:33:33.621Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#13 Facebook 面试题</title>
+    <link href="https://www.gbook.xyz/2019/12/30/facebook-interview-question-13/"/>
+    <id>https://www.gbook.xyz/2019/12/30/facebook-interview-question-13/</id>
+    <published>2019-12-30T09:25:40.000Z</published>
+    <updated>2019-12-30T09:33:33.621Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>现有一个方块矩阵，包含了 <code>K</code>行以及 <code>N</code> 列。</p><p>并且有 <code>N</code> 种颜色（此处的N和上方的N相同）。</p><p>要求：<br>在相邻两个方块不能为同一种颜色。<br>请列出方块的模型，并列出每种颜色的使用次数。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>K = 3， N = 3。<br>颜色分别为red(R), Black(B), White(W)<br>排列如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   R  B  W</span><br><span class="line">   B  W  R</span><br><span class="line">   W  B  W</span><br><span class="line"></span><br><span class="line"># 其中 red = 2, black = 3, white = 4</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;现有一个方块矩阵，包含了 &lt;code&gt;K&lt;/code&gt;行以及 &lt;code&gt;N&lt;/code&gt; 列。&lt;/p&gt;
+&lt;p&gt;并且有 &lt;code&gt;N&lt;/c
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
+    
+    
+      <category term="Facebook" scheme="https://www.gbook.xyz/tags/Facebook/"/>
+    
+  </entry>
   
   <entry>
     <title>Wordpress 全局字体的设置方法</title>
@@ -563,36 +590,6 @@
     
     
       <category term="Airbnb" scheme="https://www.gbook.xyz/tags/Airbnb/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>#4 Facebook面试题</title>
-    <link href="https://www.gbook.xyz/2019/09/09/facebook-interview-question-4/"/>
-    <id>https://www.gbook.xyz/2019/09/09/facebook-interview-question-4/</id>
-    <published>2019-09-09T08:11:45.000Z</published>
-    <updated>2019-12-19T05:33:59.772Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><ul><li>给定一个map，形如 a=1,b=2,…z=26</li><li>给定一个指定数字字符串string</li></ul><p>要求：<br>对指定string进行解码，求出有多少种解码方式</p><blockquote><p>字符串不允许是类似’001’这种</p></blockquote><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>给定字符串’111’</p><p>可得到解码方式有3中，分别是’aaa’, ‘ak’, ‘ka’</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;给定一个map，形如 a=1,b=2,…z=26&lt;/li&gt;
-&lt;li&gt;给定一个指定数字字符串string&lt;/li&gt;
-&lt;/ul&gt;
-&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
-    
-    
-      <category term="Facebook" scheme="https://www.gbook.xyz/tags/Facebook/"/>
     
   </entry>
   

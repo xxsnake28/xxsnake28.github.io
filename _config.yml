@@ -82,11 +82,11 @@ search:
   content: true
 
 # hexo-symbols-count-time config
-#symbols_count_time:
-#  symbols: true
-#  time: true
-#  total_symbols: true
-#  total_time: true
+symbols_count_time:
+  symbols: false
+  time: false
+  total_symbols: false
+  total_time: false
 #  exclude_codeblock: false
 
 # hexo-baidu-url-submit

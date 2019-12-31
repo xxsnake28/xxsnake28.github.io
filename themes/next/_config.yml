@@ -57,12 +57,12 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
-  copyright:
+  copyright: 
 
   powered:
     # Hexo link (Powered by Hexo).
@@ -368,7 +368,7 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night
   # Add copy button on codeblock
   copy_button:
     enable: false
@@ -723,7 +723,7 @@ cnzz_siteid:
 # AppID and AppKey are recommended to be the same as valine's for counter compatibility.
 # Do not enable both `valine.visitor` and `leancloud_visitors`.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: zv09X029ndv266bfDVGl0goH-MdYXbMMI # <app_id>
   app_key: sMXNloj9deUcWf1wsf7AV4r9 # <app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security

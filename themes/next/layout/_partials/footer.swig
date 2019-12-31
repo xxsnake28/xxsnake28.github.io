@@ -21,8 +21,8 @@
 
   {%- if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
+    <span class="post-meta-item-icon"> 
+      <i class="fa fa-area-chart"></i> 
     </span>
     {%- if theme.symbols_count_time.item_text_total %}
       <span class="post-meta-item-text">{{ __('symbols_count_time.count_total') + __('symbol.colon') }}</span>

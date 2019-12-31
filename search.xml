@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>#14 Google 面试题</title>
+      <link href="/2019/12/31/google-interview-question-14/"/>
+      <url>/2019/12/31/google-interview-question-14/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定两个单链表相交在某些时候，找到交叉点。该列表是非周期性的。</p><p>在O（M + N）的时间（其中，M和N是所述列表的长度）和恒定空间做到这一点。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>给定<code>A = 3 - &gt; 7 - &gt; 8 - &gt; 10</code>和<code>B = 99 - &gt; 1 - &gt; 8 - &gt; 10</code>，则返回该节点具有值<code>8</code>。</p><p>在这个例子中，假设具有相同值的节点是完全相同的节点对象。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>macOS的Catalina系统中已损坏文件无法打开的解决办法</title>
       <link href="/2019/12/30/mac-os-catalina-can-not-open-app/"/>
       <url>/2019/12/30/mac-os-catalina-can-not-open-app/</url>

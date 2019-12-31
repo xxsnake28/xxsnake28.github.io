@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2019-12-30T13:17:35.246Z</updated>
+  <updated>2019-12-31T03:00:35.861Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#14 Google 面试题</title>
+    <link href="https://www.gbook.xyz/2019/12/31/google-interview-question-14/"/>
+    <id>https://www.gbook.xyz/2019/12/31/google-interview-question-14/</id>
+    <published>2019-12-31T02:52:18.000Z</published>
+    <updated>2019-12-31T03:00:35.861Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定两个单链表相交在某些时候，找到交叉点。该列表是非周期性的。</p><p>在O（M + N）的时间（其中，M和N是所述列表的长度）和恒定空间做到这一点。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>给定<code>A = 3 - &gt; 7 - &gt; 8 - &gt; 10</code>和<code>B = 99 - &gt; 1 - &gt; 8 - &gt; 10</code>，则返回该节点具有值<code>8</code>。</p><p>在这个例子中，假设具有相同值的节点是完全相同的节点对象。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;给定两个单链表相交在某些时候，找到交叉点。该列表是非周期性的。&lt;/p&gt;
+&lt;p&gt;在O（M + N）的时间（其中，M和N是所述列表的长度）和恒定
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
+    
+    
+      <category term="Google" scheme="https://www.gbook.xyz/tags/Google/"/>
+    
+  </entry>
   
   <entry>
     <title>macOS的Catalina系统中已损坏文件无法打开的解决办法</title>
@@ -566,34 +593,6 @@
     
     
       <category term="git" scheme="https://www.gbook.xyz/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>javascript/js 小数转整数方法</title>
-    <link href="https://www.gbook.xyz/2019/10/28/js-decimal-to-integer/"/>
-    <id>https://www.gbook.xyz/2019/10/28/js-decimal-to-integer/</id>
-    <published>2019-10-28T06:30:30.000Z</published>
-    <updated>2019-12-30T13:17:35.232Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="丢弃小数部分，只保留整数"><a href="#丢弃小数部分，只保留整数" class="headerlink" title="丢弃小数部分，只保留整数"></a>丢弃小数部分，只保留整数</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">parseInt</span>(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="向上取整-有小数就整数部分加1"><a href="#向上取整-有小数就整数部分加1" class="headerlink" title="向上取整,有小数就整数部分加1"></a>向上取整,有小数就整数部分加1</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.ceil(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="进行四舍五入"><a href="#进行四舍五入" class="headerlink" title="进行四舍五入"></a>进行四舍五入</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.round(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure><h4 id="向下取整"><a href="#向下取整" class="headerlink" title="向下取整"></a>向下取整</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Math</span>.floor(<span class="number">7</span> / <span class="number">2</span>);</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h4 id=&quot;丢弃小数部分，只保留整数&quot;&gt;&lt;a href=&quot;#丢弃小数部分，只保留整数&quot; class=&quot;headerlink&quot; title=&quot;丢弃小数部分，只保留整数&quot;&gt;&lt;/a&gt;丢弃小数部分，只保留整数&lt;/h4&gt;&lt;figure class=&quot;highlight javascri
-      
-    
-    </summary>
-    
-    
-      <category term="note" scheme="https://www.gbook.xyz/categories/note/"/>
-    
-    
-      <category term="大前端" scheme="https://www.gbook.xyz/tags/%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="javascript" scheme="https://www.gbook.xyz/tags/javascript/"/>
     
   </entry>
   

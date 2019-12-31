@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2019-12-31T03:00:35.861Z</updated>
+  <updated>2019-12-31T04:13:12.352Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo的NexT主题中，关闭字数和阅读时长统计</title>
+    <link href="https://www.gbook.xyz/2019/12/31/hexo-next-close-symbols-count-time/"/>
+    <id>https://www.gbook.xyz/2019/12/31/hexo-next-close-symbols-count-time/</id>
+    <published>2019-12-31T03:54:10.000Z</published>
+    <updated>2019-12-31T04:13:12.352Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h1><p>默认情况下，hexo的next主题中会打开字数统计和阅读时长统计。<br>并且包含文章本身的统计和全局统计，如图：<br><img data-src="https://i.loli.net/2019/12/31/7wsOGI2k9goylxf.jpg" alt="全局统计"><br><img data-src="https://i.loli.net/2019/12/31/kMsdlJHSfUW5OwP.jpg" alt="文章统计"></p><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>可能有些人不喜欢这个，比如我，那么我就要关闭他。</p><h1 id="怎么做"><a href="#怎么做" class="headerlink" title="怎么做"></a>怎么做</h1><ol><li>将插件<code>hexo-symbols-count-time</code> 更新到最新版本<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn upgrade hexo-symbols-count-time@^版本号</span><br></pre></td></tr></table></figure></li><li>打开<code>hexo</code> 根目录的文件 <code>_config.yml</code> 并修改<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 增加如下配置</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">false</span> <span class="comment"># 关闭文章时长统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭全局字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">false</span> <span class="comment"># 关闭全局时长统计</span></span><br></pre></td></tr></table></figure></li></ol><blockquote><p>已测试版本：<br>hexo: 4.0.0 ~ 4.2.0<br>next: 7.6.0</p></blockquote><h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>在 <code>theme/next/layout/_partials/footer.swig</code> 文件中，是对应改全局配置的地方。<br>其中，如下代码表明了对应的全局配置：<br><img data-src="https://i.loli.net/2019/12/31/A5mfw7srv93OEi6.jpg" alt="代码"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;现象&quot;&gt;&lt;a href=&quot;#现象&quot; class=&quot;headerlink&quot; title=&quot;现象&quot;&gt;&lt;/a&gt;现象&lt;/h1&gt;&lt;p&gt;默认情况下，hexo的next主题中会打开字数统计和阅读时长统计。&lt;br&gt;并且包含文章本身的统计和全局统计，如图：&lt;br&gt;&lt;img data
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="https://www.gbook.xyz/categories/note/"/>
+    
+    
+      <category term="hexo" scheme="https://www.gbook.xyz/tags/hexo/"/>
+    
+      <category term="next" scheme="https://www.gbook.xyz/tags/next/"/>
+    
+      <category term="大前端" scheme="https://www.gbook.xyz/tags/%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>#14 Google 面试题</title>
@@ -480,9 +510,9 @@
       <category term="note" scheme="https://www.gbook.xyz/categories/note/"/>
     
     
-      <category term="大后端" scheme="https://www.gbook.xyz/tags/%E5%A4%A7%E5%90%8E%E7%AB%AF/"/>
-    
       <category term="大前端" scheme="https://www.gbook.xyz/tags/%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="大后端" scheme="https://www.gbook.xyz/tags/%E5%A4%A7%E5%90%8E%E7%AB%AF/"/>
     
       <category term="Regular" scheme="https://www.gbook.xyz/tags/Regular/"/>
     
@@ -567,32 +597,6 @@
       <category term="大前端" scheme="https://www.gbook.xyz/tags/%E5%A4%A7%E5%89%8D%E7%AB%AF/"/>
     
       <category term="域名" scheme="https://www.gbook.xyz/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git代理设置</title>
-    <link href="https://www.gbook.xyz/2019/11/12/git-proxy-setting/"/>
-    <id>https://www.gbook.xyz/2019/11/12/git-proxy-setting/</id>
-    <published>2019-11-12T06:31:07.000Z</published>
-    <updated>2019-12-30T13:17:35.233Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="git-设置代理"><a href="#git-设置代理" class="headerlink" title="git 设置代理"></a>git 设置代理</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:1080</span><br><span class="line"></span><br><span class="line">git config --global https.proxy http://127.0.0.1:1080</span><br></pre></td></tr></table></figure><h1 id="git-取消代理"><a href="#git-取消代理" class="headerlink" title="git 取消代理"></a>git 取消代理</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line"></span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;git-设置代理&quot;&gt;&lt;a href=&quot;#git-设置代理&quot; class=&quot;headerlink&quot; title=&quot;git 设置代理&quot;&gt;&lt;/a&gt;git 设置代理&lt;/h1&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl
-      
-    
-    </summary>
-    
-    
-      <category term="note" scheme="https://www.gbook.xyz/categories/note/"/>
-    
-    
-      <category term="git" scheme="https://www.gbook.xyz/tags/git/"/>
     
   </entry>
   

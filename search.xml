@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>hexo的NexT主题中，关闭字数和阅读时长统计</title>
+      <link href="/2019/12/31/hexo-next-close-symbols-count-time/"/>
+      <url>/2019/12/31/hexo-next-close-symbols-count-time/</url>
+      
+        <content type="html"><![CDATA[<h1 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h1><p>默认情况下，hexo的next主题中会打开字数统计和阅读时长统计。<br>并且包含文章本身的统计和全局统计，如图：<br><img data-src="https://i.loli.net/2019/12/31/7wsOGI2k9goylxf.jpg" alt="全局统计"><br><img data-src="https://i.loli.net/2019/12/31/kMsdlJHSfUW5OwP.jpg" alt="文章统计"></p><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>可能有些人不喜欢这个，比如我，那么我就要关闭他。</p><h1 id="怎么做"><a href="#怎么做" class="headerlink" title="怎么做"></a>怎么做</h1><ol><li>将插件<code>hexo-symbols-count-time</code> 更新到最新版本<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn upgrade hexo-symbols-count-time@^版本号</span><br></pre></td></tr></table></figure></li><li>打开<code>hexo</code> 根目录的文件 <code>_config.yml</code> 并修改<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 增加如下配置</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">false</span> <span class="comment"># 关闭文章时长统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭全局字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">false</span> <span class="comment"># 关闭全局时长统计</span></span><br></pre></td></tr></table></figure></li></ol><blockquote><p>已测试版本：<br>hexo: 4.0.0 ~ 4.2.0<br>next: 7.6.0</p></blockquote><h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>在 <code>theme/next/layout/_partials/footer.swig</code> 文件中，是对应改全局配置的地方。<br>其中，如下代码表明了对应的全局配置：<br><img data-src="https://i.loli.net/2019/12/31/A5mfw7srv93OEi6.jpg" alt="代码"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> note </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> next </tag>
+            
+            <tag> 大前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>#14 Google 面试题</title>
       <link href="/2019/12/31/google-interview-question-14/"/>
       <url>/2019/12/31/google-interview-question-14/</url>
@@ -407,9 +436,9 @@
       
         <tags>
             
-            <tag> 大后端 </tag>
-            
             <tag> 大前端 </tag>
+            
+            <tag> 大后端 </tag>
             
             <tag> Regular </tag>
             
@@ -723,13 +752,13 @@
       
         <tags>
             
-            <tag> 大前端 </tag>
-            
             <tag> hexo </tag>
             
             <tag> next </tag>
             
             <tag> valine </tag>
+            
+            <tag> 大前端 </tag>
             
         </tags>
       
@@ -856,9 +885,9 @@
       
         <tags>
             
-            <tag> 大后端 </tag>
-            
             <tag> 大前端 </tag>
+            
+            <tag> 大后端 </tag>
             
             <tag> npm&amp;yarn </tag>
             

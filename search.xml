@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>#15 Snapchat面试题</title>
+      <link href="/2020/01/02/snapchat-interview-question-15/"/>
+      <url>/2020/01/02/snapchat-interview-question-15/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>我们有若干个会议室，和若干场会议。</p><p>每场会议需要的时间不同，并且会议和会议之间的时间可能有重复。</p><p>要求：<br>在给定的一组会议时间的情况下，计算出最少需要多少个会议室</p><blockquote><p>会议时间按分钟计算，从0开始。<br>会议时间格式诸如：<code>(start, end)</code></p></blockquote><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>现有三场会议，时间分别为：</p><ul><li>(30, 75)</li><li>(0, 50)</li><li>(60, 150)</li></ul><p>那么计算获得，最少需要 <code>2</code> 个会议室</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Snapchat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo的NexT主题中，关闭字数和阅读时长统计</title>
       <link href="/2019/12/31/hexo-next-close-symbols-count-time/"/>
       <url>/2019/12/31/hexo-next-close-symbols-count-time/</url>
@@ -20,11 +45,11 @@
       
         <tags>
             
+            <tag> 大前端 </tag>
+            
             <tag> hexo </tag>
             
             <tag> next </tag>
-            
-            <tag> 大前端 </tag>
             
         </tags>
       
@@ -752,13 +777,13 @@
       
         <tags>
             
+            <tag> 大前端 </tag>
+            
             <tag> hexo </tag>
             
             <tag> next </tag>
             
             <tag> valine </tag>
-            
-            <tag> 大前端 </tag>
             
         </tags>
       

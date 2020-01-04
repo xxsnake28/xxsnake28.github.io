@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Charles Proxy v4.2.8</title>
+      <link href="/2020/01/04/charles-4-2-8/"/>
+      <url>/2020/01/04/charles-4-2-8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>Mac下著名的抓包工具，可以支持手机，https等。用过的都说好。</p><p><img data-src="https://i.loli.net/2020/01/04/bYwoj1JlG3feEgx.jpg" alt="界面"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>拖动 <code>app</code> 到应用程序目录下即可。</li><li>将文件 <code>crack/charles.jar</code> 复制到 <code>/Applications/Charles.app/Contents/Java/</code> 下覆盖即可完成破解。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-416164835" target="_blank" rel="noopener">https://t00y.com/file/16515554-416164835</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> mac-tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Tools </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Alfred v4.0.7.1131</title>
       <link href="/2020/01/04/alfred-4-0-7-1131/"/>
       <url>/2020/01/04/alfred-4-0-7-1131/</url>

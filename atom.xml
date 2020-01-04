@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2020-01-04T07:30:28.693Z</updated>
+  <updated>2020-01-04T07:39:53.197Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Alfred v4.0.7.1131</title>
+    <link href="https://www.gbook.xyz/2020/01/04/alfred-4-0-7-1131/"/>
+    <id>https://www.gbook.xyz/2020/01/04/alfred-4-0-7-1131/</id>
+    <published>2020-01-04T07:33:19.000Z</published>
+    <updated>2020-01-04T07:39:53.197Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>效率神器，比mac下原生的搜索功能好用的多。</p><p>可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。</p><p><img data-src="https://i.loli.net/2020/01/04/glhOW9c7FtP8H6L.jpg" alt="主界面"><br><img data-src="https://i.loli.net/2020/01/04/xHJBqEcpTQuP8Lw.jpg" alt="配置"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：</p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;效率神器，比mac下原生的搜索功能好用的多。&lt;/p&gt;
+&lt;p&gt;可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。&lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="mac-tools" scheme="https://www.gbook.xyz/categories/mac-tools/"/>
+    
+    
+      <category term="Mac" scheme="https://www.gbook.xyz/tags/Mac/"/>
+    
+      <category term="Tools" scheme="https://www.gbook.xyz/tags/Tools/"/>
+    
+  </entry>
   
   <entry>
     <title>CleanMyMac X v4.5.2</title>
@@ -574,33 +603,6 @@
       <category term="PHP" scheme="https://www.gbook.xyz/tags/PHP/"/>
     
       <category term="Laravel" scheme="https://www.gbook.xyz/tags/Laravel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>#8 Amazon面试题</title>
-    <link href="https://www.gbook.xyz/2019/12/18/amazon-interview-question-8/"/>
-    <id>https://www.gbook.xyz/2019/12/18/amazon-interview-question-8/</id>
-    <published>2019-12-18T01:49:24.000Z</published>
-    <updated>2019-12-30T13:17:35.237Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>从A点到目标B点，中间有N个节点，每次可以移动x或者y或者z个节点。</p><p>要求：<br>写一个函数，输出所有可能的不重复的从A到B的路径。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><h2 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h2><p>假设节点数<code>N = 4</code>，可移动的方式为 <code>S = [1, 2]</code> </p><p>那么输出的结果如下：</p><ul><li>1，1，1，1</li><li>2，1，1</li><li>1，2，1</li><li>1，1，2</li><li>2，2</li></ul><h2 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h2><p>假设节点数 <code>N = 5</code>，可移动的方式为 <code>S = [1, 3, 5]</code></p><p>那么输出的结果如下：</p><ul><li>1，1，1，1，1</li><li>1，1，3</li><li>1，3，1</li><li>3，1，1</li><li>5</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;从A点到目标B点，中间有N个节点，每次可以移动x或者y或者z个节点。&lt;/p&gt;
-&lt;p&gt;要求：&lt;br&gt;写一个函数，输出所有可能的不重复的从A到B
-      
-    
-    </summary>
-    
-    
-      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
-    
-    
-      <category term="Amazon" scheme="https://www.gbook.xyz/tags/Amazon/"/>
     
   </entry>
   

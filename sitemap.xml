@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.gbook.xyz/2020/01/04/cleanmymac-x-v4-5-2/</loc>
+    
+    <lastmod>2020-01-04T07:30:28.693Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.gbook.xyz/2020/01/04/textmate-v2-0-6/</loc>
     
     <lastmod>2020-01-04T07:14:48.283Z</lastmod>
@@ -107,14 +114,14 @@
   </url>
   
   <url>
-    <loc>https://www.gbook.xyz/2019/12/19/wordpress-common-used-plugin/</loc>
+    <loc>https://www.gbook.xyz/2019/12/19/amazon-interview-question-9/</loc>
     
     <lastmod>2019-12-30T13:17:35.239Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.gbook.xyz/2019/12/19/amazon-interview-question-9/</loc>
+    <loc>https://www.gbook.xyz/2019/12/19/wordpress-common-used-plugin/</loc>
     
     <lastmod>2019-12-30T13:17:35.239Z</lastmod>
     
@@ -198,13 +205,6 @@
   </url>
   
   <url>
-    <loc>https://www.gbook.xyz/2019/09/09/airbnb-interview-question-5/</loc>
-    
-    <lastmod>2019-12-30T13:17:35.229Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.gbook.xyz/2019/09/09/bfc-box-formatting-context-attributes/</loc>
     
     <lastmod>2019-12-30T13:17:35.229Z</lastmod>
@@ -212,14 +212,21 @@
   </url>
   
   <url>
-    <loc>https://www.gbook.xyz/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/</loc>
+    <loc>https://www.gbook.xyz/2019/09/09/airbnb-interview-question-5/</loc>
+    
+    <lastmod>2019-12-30T13:17:35.229Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.gbook.xyz/2019/09/06/user-agent-check/</loc>
     
     <lastmod>2019-12-30T13:17:35.228Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.gbook.xyz/2019/09/06/user-agent-check/</loc>
+    <loc>https://www.gbook.xyz/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/</loc>
     
     <lastmod>2019-12-30T13:17:35.228Z</lastmod>
     

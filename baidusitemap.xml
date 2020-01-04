@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.gbook.xyz/2020/01/04/cleanmymac-x-v4-5-2/</loc>
+    <lastmod>2020-01-04</lastmod>
+  </url>  <url>
     <loc>https://www.gbook.xyz/2020/01/04/textmate-v2-0-6/</loc>
     <lastmod>2020-01-04</lastmod>
   </url>  <url>
@@ -40,10 +43,10 @@
     <loc>https://www.gbook.xyz/2019/12/23/twitter-interview-question-10/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://www.gbook.xyz/2019/12/19/wordpress-common-used-plugin/</loc>
+    <loc>https://www.gbook.xyz/2019/12/19/amazon-interview-question-9/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://www.gbook.xyz/2019/12/19/amazon-interview-question-9/</loc>
+    <loc>https://www.gbook.xyz/2019/12/19/wordpress-common-used-plugin/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://www.gbook.xyz/2019/12/18/php-laravel-common-used-package/</loc>
@@ -79,16 +82,16 @@
     <loc>https://www.gbook.xyz/2019/09/09/css-css3-display-attributes/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://www.gbook.xyz/2019/09/09/airbnb-interview-question-5/</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://www.gbook.xyz/2019/09/09/bfc-box-formatting-context-attributes/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://www.gbook.xyz/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/</loc>
+    <loc>https://www.gbook.xyz/2019/09/09/airbnb-interview-question-5/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://www.gbook.xyz/2019/09/06/user-agent-check/</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://www.gbook.xyz/2019/09/05/hexo-next-theme-valine-can-not-use-chinese/</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://www.gbook.xyz/2019/09/05/google-interview-question-3/</loc>

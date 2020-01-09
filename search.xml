@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>#16 Microsoft 面试题</title>
+      <link href="/2020/01/09/microsoft-interview-question-16/"/>
+      <url>/2020/01/09/microsoft-interview-question-16/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定一个字符串数组 <code>array</code>，给定一个目标字符串 <code>s</code>（没有空格）</p><p>要求：<br>根据 <code>s</code> 的字符串，查找出 <code>array</code>中包含的字符串。<br>如果有多种组合方式的，则需要全部输出。<br>如果没有组合方式，则输出<code>null</code>。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><h2 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">array = [<span class="string">'quick'</span>, <span class="string">'brown'</span>, <span class="string">'the'</span>, <span class="string">'fox'</span>]</span><br><span class="line">s = <span class="string">'thequickbrownfox'</span></span><br><span class="line"></span><br><span class="line">// 返回</span><br><span class="line">res = [<span class="string">'the'</span>, <span class="string">'quick'</span>, <span class="string">'brown'</span>, <span class="string">'fox'</span>]</span><br></pre></td></tr></table></figure><h2 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">array = [<span class="string">'bed'</span>, <span class="string">'bath'</span>, <span class="string">'bedbath'</span>, <span class="string">'and'</span>, <span class="string">'beyond'</span>]</span><br><span class="line">s = <span class="string">'bedbathandbeyond'</span></span><br><span class="line"></span><br><span class="line">// 返回</span><br><span class="line">res1 = [<span class="string">'bed'</span>, <span class="string">'bath'</span>, <span class="string">'and'</span>, <span class="string">'beyond'</span>]</span><br><span class="line">res2 = [<span class="string">'bedbath'</span>, <span class="string">'and'</span>, <span class="string">'beyond'</span>]</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Microsoft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Charles Proxy v4.2.8</title>
       <link href="/2020/01/04/charles-4-2-8/"/>
       <url>/2020/01/04/charles-4-2-8/</url>

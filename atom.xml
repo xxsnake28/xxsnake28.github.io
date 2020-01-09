@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2020-01-04T08:04:55.502Z</updated>
+  <updated>2020-01-09T09:28:11.138Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>#16 Microsoft 面试题</title>
+    <link href="https://www.gbook.xyz/2020/01/09/microsoft-interview-question-16/"/>
+    <id>https://www.gbook.xyz/2020/01/09/microsoft-interview-question-16/</id>
+    <published>2020-01-09T09:16:37.000Z</published>
+    <updated>2020-01-09T09:28:11.138Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定一个字符串数组 <code>array</code>，给定一个目标字符串 <code>s</code>（没有空格）</p><p>要求：<br>根据 <code>s</code> 的字符串，查找出 <code>array</code>中包含的字符串。<br>如果有多种组合方式的，则需要全部输出。<br>如果没有组合方式，则输出<code>null</code>。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><h2 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">array = [<span class="string">'quick'</span>, <span class="string">'brown'</span>, <span class="string">'the'</span>, <span class="string">'fox'</span>]</span><br><span class="line">s = <span class="string">'thequickbrownfox'</span></span><br><span class="line"></span><br><span class="line">// 返回</span><br><span class="line">res = [<span class="string">'the'</span>, <span class="string">'quick'</span>, <span class="string">'brown'</span>, <span class="string">'fox'</span>]</span><br></pre></td></tr></table></figure><h2 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">array = [<span class="string">'bed'</span>, <span class="string">'bath'</span>, <span class="string">'bedbath'</span>, <span class="string">'and'</span>, <span class="string">'beyond'</span>]</span><br><span class="line">s = <span class="string">'bedbathandbeyond'</span></span><br><span class="line"></span><br><span class="line">// 返回</span><br><span class="line">res1 = [<span class="string">'bed'</span>, <span class="string">'bath'</span>, <span class="string">'and'</span>, <span class="string">'beyond'</span>]</span><br><span class="line">res2 = [<span class="string">'bedbath'</span>, <span class="string">'and'</span>, <span class="string">'beyond'</span>]</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;给定一个字符串数组 &lt;code&gt;array&lt;/code&gt;，给定一个目标字符串 &lt;code&gt;s&lt;/code&gt;（没有空格）&lt;/p&gt;
+&lt;p&gt;要求：
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
+    
+    
+      <category term="Microsoft" scheme="https://www.gbook.xyz/tags/Microsoft/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Charles Proxy v4.2.8</title>
     <link href="https://www.gbook.xyz/2020/01/04/charles-4-2-8/"/>
     <id>https://www.gbook.xyz/2020/01/04/charles-4-2-8/</id>
     <published>2020-01-04T07:53:54.000Z</published>
-    <updated>2020-01-04T08:04:55.502Z</updated>
+    <updated>2020-01-04T08:04:55.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>Mac下著名的抓包工具，可以支持手机，https等。用过的都说好。</p><p><img data-src="https://i.loli.net/2020/01/04/bYwoj1JlG3feEgx.jpg" alt="界面"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>拖动 <code>app</code> 到应用程序目录下即可。</li><li>将文件 <code>crack/charles.jar</code> 复制到 <code>/Applications/Charles.app/Contents/Java/</code> 下覆盖即可完成破解。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-416164835" target="_blank" rel="noopener">https://t00y.com/file/16515554-416164835</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -50,7 +77,7 @@
     <link href="https://www.gbook.xyz/2020/01/04/alfred-4-0-7-1131/"/>
     <id>https://www.gbook.xyz/2020/01/04/alfred-4-0-7-1131/</id>
     <published>2020-01-04T07:33:19.000Z</published>
-    <updated>2020-01-04T07:39:53.197Z</updated>
+    <updated>2020-01-04T07:39:53.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>效率神器，比mac下原生的搜索功能好用的多。</p><p>可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。</p><p><img data-src="https://i.loli.net/2020/01/04/glhOW9c7FtP8H6L.jpg" alt="主界面"><br><img data-src="https://i.loli.net/2020/01/04/xHJBqEcpTQuP8Lw.jpg" alt="配置"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：</p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -79,7 +106,7 @@
     <link href="https://www.gbook.xyz/2020/01/04/cleanmymac-x-v4-5-2/"/>
     <id>https://www.gbook.xyz/2020/01/04/cleanmymac-x-v4-5-2/</id>
     <published>2020-01-04T07:26:09.000Z</published>
-    <updated>2020-01-04T07:30:28.693Z</updated>
+    <updated>2020-01-04T07:30:28.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>CleanMyMac是一个系统清理工具，删除系统缓存文件 , 多余的应用程序语言包等。</p><p>个人使用非常顺畅，特别在删除一些杂七杂八垃圾的时候。<br>当然，卸载APP也非常方便。也是业内评价非常好的。</p><blockquote><p>由于通常我们用的都是的“免费版”的APP，就不要使用内置APP升级功能了，升了那些就用不了了，切记！</p></blockquote><p>类似于windows下的各种助手（腾讯管家，360管家）</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ul><li>清理系统垃圾</li><li>清理浏览器垃圾</li><li>清理照片垃圾</li><li>清理iThunes垃圾</li><li>移除恶意软件，保护隐私</li><li>系统优化和维护</li><li>卸载应用程序，浏览器插件</li><li>整理和管理各种废旧文件</li><li>等等</li></ul><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2019/12/30/Xt2mPRwjZKqN9Gf.jpg" alt="1.jpg"><br><img data-src="https://i.loli.net/2019/12/30/fs89QkE1HujA2iW.jpg" alt="2.jpg"><br><img data-src="https://i.loli.net/2019/12/30/CgRKZTq2pm6srBG.jpg" alt="3.jpg"><br><img data-src="https://i.loli.net/2019/12/30/V5QkwN3E29mcorD.jpg" alt="4.jpg"><br><img data-src="https://i.loli.net/2019/12/30/LTJy8ERxkis9BA5.jpg" alt="5.jpg"><br><img data-src="https://i.loli.net/2019/12/30/COIrHv1TjVnARz9.jpg" alt="6.jpg"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-416164400" target="_blank" rel="noopener">https://t00y.com/file/16515554-416164400</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -110,7 +137,7 @@
     <link href="https://www.gbook.xyz/2020/01/04/textmate-v2-0-6/"/>
     <id>https://www.gbook.xyz/2020/01/04/textmate-v2-0-6/</id>
     <published>2020-01-04T06:56:04.000Z</published>
-    <updated>2020-01-04T07:14:48.283Z</updated>
+    <updated>2020-01-04T07:14:48.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>这是我用过的贼好用的编辑器，个人感觉比vim，notepad++，sublime text3什么的都好用，而且是mac上的老牌了。</p><p>但是我主要是用来查看文件，所以用起来就是缺什么插件点一下自动装。<br>暂时还没有遇到不能看的文件，这点很爽。</p><p><img data-src="https://i.loli.net/2020/01/04/xEl3f6XQvK1Jwz4.jpg" alt="图"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-416160747" target="_blank" rel="noopener">https://t00y.com/file/16515554-416160747</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -139,7 +166,7 @@
     <link href="https://www.gbook.xyz/2020/01/02/navicat-premium-v15-0-5/"/>
     <id>https://www.gbook.xyz/2020/01/02/navicat-premium-v15-0-5/</id>
     <published>2020-01-02T09:26:58.000Z</published>
-    <updated>2020-01-02T10:19:12.500Z</updated>
+    <updated>2020-01-02T10:19:12.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>Navicat Premium 结合了其他 Navicat 成员的功能。有了不同数据库类型的连接能力，Navicat Premium 支持在 MySQL、SQL Server、SQLite、Oracle 及 PostgreSQL 之间传输数据。包括存储过程，事件，触发器，函数，视图等。</p><p>Navicat Premium 适用于三种平台 - Microsoft Windows、Mac OS X 及 Linux。它可以让用户连接本机或远程服务器、提供一些实用的数据库工具如数据模型工具、数据同步、结构同步、导入、导出、备份、还原及报表以协助管理数据。</p><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2020/01/02/vugOhptGLoKCzys.jpg" alt="主界面"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-415896032" target="_blank" rel="noopener">https://t00y.com/file/16515554-415896032</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -167,7 +194,7 @@
     <link href="https://www.gbook.xyz/2020/01/02/snapchat-interview-question-15/"/>
     <id>https://www.gbook.xyz/2020/01/02/snapchat-interview-question-15/</id>
     <published>2020-01-02T09:08:12.000Z</published>
-    <updated>2020-01-02T09:15:09.206Z</updated>
+    <updated>2020-01-02T09:15:09.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>我们有若干个会议室，和若干场会议。</p><p>每场会议需要的时间不同，并且会议和会议之间的时间可能有重复。</p><p>要求：<br>在给定的一组会议时间的情况下，计算出最少需要多少个会议室</p><blockquote><p>会议时间按分钟计算，从0开始。<br>会议时间格式诸如：<code>(start, end)</code></p></blockquote><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>现有三场会议，时间分别为：</p><ul><li>(30, 75)</li><li>(0, 50)</li><li>(60, 150)</li></ul><p>那么计算获得，最少需要 <code>2</code> 个会议室</p>]]></content>
     
@@ -195,7 +222,7 @@
     <link href="https://www.gbook.xyz/2019/12/31/hexo-next-close-symbols-count-time/"/>
     <id>https://www.gbook.xyz/2019/12/31/hexo-next-close-symbols-count-time/</id>
     <published>2019-12-31T03:54:10.000Z</published>
-    <updated>2019-12-31T04:13:12.352Z</updated>
+    <updated>2019-12-31T04:13:12.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h1><p>默认情况下，hexo的next主题中会打开字数统计和阅读时长统计。<br>并且包含文章本身的统计和全局统计，如图：<br><img data-src="https://i.loli.net/2019/12/31/7wsOGI2k9goylxf.jpg" alt="全局统计"><br><img data-src="https://i.loli.net/2019/12/31/kMsdlJHSfUW5OwP.jpg" alt="文章统计"></p><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>可能有些人不喜欢这个，比如我，那么我就要关闭他。</p><h1 id="怎么做"><a href="#怎么做" class="headerlink" title="怎么做"></a>怎么做</h1><ol><li>将插件<code>hexo-symbols-count-time</code> 更新到最新版本<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn upgrade hexo-symbols-count-time@^版本号</span><br></pre></td></tr></table></figure></li><li>打开<code>hexo</code> 根目录的文件 <code>_config.yml</code> 并修改<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 增加如下配置</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">false</span> <span class="comment"># 关闭文章时长统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭全局字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">false</span> <span class="comment"># 关闭全局时长统计</span></span><br></pre></td></tr></table></figure></li></ol><blockquote><p>已测试版本：<br>hexo: 4.0.0 ~ 4.2.0<br>next: 7.6.0</p></blockquote><h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>在 <code>theme/next/layout/_partials/footer.swig</code> 文件中，是对应改全局配置的地方。<br>其中，如下代码表明了对应的全局配置：<br><img data-src="https://i.loli.net/2019/12/31/A5mfw7srv93OEi6.jpg" alt="代码"></p>]]></content>
     
@@ -225,7 +252,7 @@
     <link href="https://www.gbook.xyz/2019/12/31/google-interview-question-14/"/>
     <id>https://www.gbook.xyz/2019/12/31/google-interview-question-14/</id>
     <published>2019-12-31T02:52:18.000Z</published>
-    <updated>2019-12-31T03:00:35.861Z</updated>
+    <updated>2019-12-31T03:00:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定两个单链表相交在某些时候，找到交叉点。该列表是非周期性的。</p><p>在O（M + N）的时间（其中，M和N是所述列表的长度）和恒定空间做到这一点。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>给定<code>A = 3 - &gt; 7 - &gt; 8 - &gt; 10</code>和<code>B = 99 - &gt; 1 - &gt; 8 - &gt; 10</code>，则返回该节点具有值<code>8</code>。</p><p>在这个例子中，假设具有相同值的节点是完全相同的节点对象。</p>]]></content>
     
@@ -252,7 +279,7 @@
     <link href="https://www.gbook.xyz/2019/12/30/mac-os-catalina-can-not-open-app/"/>
     <id>https://www.gbook.xyz/2019/12/30/mac-os-catalina-can-not-open-app/</id>
     <published>2019-12-30T10:24:24.000Z</published>
-    <updated>2019-12-30T13:17:35.246Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<p>一些旧版本的APP 在 macOS的Catalina系统中可能会出现<code>已损坏无法打开</code>的问题。<br>以下是解决方式：</p><ol><li>打开系统终端</li><li>输入 <code>sudo xattr -d com.apple.quarantine /Applications/APP包名</code><blockquote><p>输入前面一段后，可以直接拖动app到终端中，可以自动生成路径。</p></blockquote></li><li>重启APP即可。</li></ol>]]></content>
     
@@ -283,7 +310,7 @@
     <link href="https://www.gbook.xyz/2019/12/30/cleanmymac-x-v4-5-1/"/>
     <id>https://www.gbook.xyz/2019/12/30/cleanmymac-x-v4-5-1/</id>
     <published>2019-12-30T09:42:20.000Z</published>
-    <updated>2020-01-02T10:13:12.771Z</updated>
+    <updated>2020-01-02T10:13:12.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>CleanMyMac是一个系统清理工具，删除系统缓存文件 , 多余的应用程序语言包等。</p><p>个人使用非常顺畅，特别在删除一些杂七杂八垃圾的时候。<br>当然，卸载APP也非常方便。也是业内评价非常好的。</p><blockquote><p>由于通常我们用的都是的“免费版”的APP，就不要使用内置APP升级功能了，升了那些就用不了了，切记！</p></blockquote><p>类似于windows下的各种助手（腾讯管家，360管家）</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ul><li>清理系统垃圾</li><li>清理浏览器垃圾</li><li>清理照片垃圾</li><li>清理iThunes垃圾</li><li>移除恶意软件，保护隐私</li><li>系统优化和维护</li><li>卸载应用程序，浏览器插件</li><li>整理和管理各种废旧文件</li><li>等等</li></ul><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2019/12/30/Xt2mPRwjZKqN9Gf.jpg" alt="1.jpg"><br><img data-src="https://i.loli.net/2019/12/30/fs89QkE1HujA2iW.jpg" alt="2.jpg"><br><img data-src="https://i.loli.net/2019/12/30/CgRKZTq2pm6srBG.jpg" alt="3.jpg"><br><img data-src="https://i.loli.net/2019/12/30/V5QkwN3E29mcorD.jpg" alt="4.jpg"><br><img data-src="https://i.loli.net/2019/12/30/LTJy8ERxkis9BA5.jpg" alt="5.jpg"><br><img data-src="https://i.loli.net/2019/12/30/COIrHv1TjVnARz9.jpg" alt="6.jpg"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-415616428" target="_blank" rel="noopener">https://t00y.com/file/16515554-415616428</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -314,7 +341,7 @@
     <link href="https://www.gbook.xyz/2019/12/30/facebook-interview-question-13/"/>
     <id>https://www.gbook.xyz/2019/12/30/facebook-interview-question-13/</id>
     <published>2019-12-30T09:25:40.000Z</published>
-    <updated>2019-12-30T13:17:35.245Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>现有一个方块矩阵，包含了 <code>K</code>行以及 <code>N</code> 列。</p><p>并且有 <code>N</code> 种颜色（此处的N和上方的N相同）。</p><p>要求：<br>在相邻两个方块不能为同一种颜色。<br>请列出方块的模型，并列出每种颜色的使用次数。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>K = 3， N = 3。<br>颜色分别为red(R), Black(B), White(W)<br>排列如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   R  B  W</span><br><span class="line">   B  W  R</span><br><span class="line">   W  B  W</span><br><span class="line"></span><br><span class="line"># 其中 red &#x3D; 2, black &#x3D; 3, white &#x3D; 4</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -341,7 +368,7 @@
     <link href="https://www.gbook.xyz/2019/12/30/wordpress-global-font/"/>
     <id>https://www.gbook.xyz/2019/12/30/wordpress-global-font/</id>
     <published>2019-12-30T07:59:01.000Z</published>
-    <updated>2019-12-30T13:17:35.247Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="增加代码的位置"><a href="#增加代码的位置" class="headerlink" title="增加代码的位置"></a>增加代码的位置</h1><ul><li>如果主题支持自定义CSS，那么在自定义CSS的地方加入如下代码</li><li>如果主题不支持自定义CSS，那么在添加到你的 <code>style.css</code> 的第一行</li></ul><h2 id="常规情况下"><a href="#常规情况下" class="headerlink" title="常规情况下"></a>常规情况下</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">"Microsoft YaHei"</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="在图标字体的情况下"><a href="#在图标字体的情况下" class="headerlink" title="在图标字体的情况下"></a>在图标字体的情况下</h2><p>很多国外主题采用的图标字体化，会导致很多图标无法显示。  </p><p>此时可采用如下的方式：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>:’Open Sans’;<span class="attribute">unicode-range</span>:U+<span class="number">2</span>E80-FFFF;<span class="attribute">src</span>: <span class="built_in">local</span>(‘Microsoft YaHei’);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>如果上述无效，可以用如下方式尝试：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*<span class="selector-pseudo">:not(</span><span class="selector-attr">[class*=<span class="string">"icon"</span>]</span>)<span class="selector-pseudo">:not(i)</span>&#123;</span><br><span class="line">    <span class="attribute">font-family</span>: “Microsoft YaHei” <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="上述方式都无效的情况下"><a href="#上述方式都无效的情况下" class="headerlink" title="上述方式都无效的情况下"></a>上述方式都无效的情况下</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*<span class="selector-pseudo">:not(</span><span class="selector-attr">[class*=<span class="string">"icon"</span>]</span>)<span class="selector-pseudo">:not(i)</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: Segoe UI, <span class="string">"Microsoft Yahei"</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>因为每个主题都不一样，在大多数情况下可以通过上述方式解决。<br>如果上述方式都无效的情况下，需要专门针对该主题进行分析。</p><p>以上的方法只用其中一种即可。</p></blockquote>]]></content>
     
@@ -369,7 +396,7 @@
     <link href="https://www.gbook.xyz/2019/12/25/google-interview-question-12/"/>
     <id>https://www.gbook.xyz/2019/12/25/google-interview-question-12/</id>
     <published>2019-12-25T09:42:08.000Z</published>
-    <updated>2019-12-30T13:17:35.244Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定一个整型数组 array， 一个指定整型 k</p><ul><li>数组 array的子数组只要求按顺序的子数组，见例子</li><li>k 的取值范围为 <code>1 &lt;= array &lt;= array.length</code></li></ul><p>要求：<br>找出该数组的所有长度为K的子数组中的最大值。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">array &#x3D; [10, 5, 2, 7, 8, 7]</span><br><span class="line">k &#x3D; 3</span><br><span class="line"></span><br><span class="line"># output</span><br><span class="line">[10, 7, 8, 8]</span><br></pre></td></tr></table></figure><p>因为：  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">10 &#x3D; max(10, 5, 2)</span><br><span class="line">7 &#x3D; max(5, 2, 7)</span><br><span class="line">8 &#x3D; max(2, 7, 8)</span><br><span class="line">8 &#x3D; max(7, 8, 7)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -398,7 +425,7 @@
     <link href="https://www.gbook.xyz/2019/12/24/google-interview-question-11/"/>
     <id>https://www.gbook.xyz/2019/12/24/google-interview-question-11/</id>
     <published>2019-12-24T10:39:15.000Z</published>
-    <updated>2019-12-30T13:17:35.243Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假如有一个文件系统，文件系统中的路径以字符串的方式构建。  </p><p>如：<br>字符串<code>&quot;dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext&quot;</code><br>对应的文件接口是  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">dir  </span><br><span class="line">    subdir1</span><br><span class="line">    subdir2</span><br><span class="line">        file.ext</span><br></pre></td></tr></table></figure><p>以上表示，文件夹 dir 下面包含两个文件夹 subdir1，subdir2，文件夹 subdir2 下面有个 file.ext</p><p>要求：<br>给定一个文件系统字符串，计算出该文件系统中，最长的绝对路径（字符串长度最长）的文件<br>如果系统中没有该文件，则返回 0</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>文件系统字符串：<br><code>dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext</code></p><p>那么，最长的路径为<code>dir/subdir2/subsubdir2/file2.ext</code>，长度为 32 个字符</p>]]></content>
     
@@ -425,7 +452,7 @@
     <link href="https://www.gbook.xyz/2019/12/24/downie-v3-9-3/"/>
     <id>https://www.gbook.xyz/2019/12/24/downie-v3-9-3/</id>
     <published>2019-12-24T08:42:51.000Z</published>
-    <updated>2020-01-02T10:13:32.161Z</updated>
+    <updated>2020-01-02T10:13:32.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>Downie 是一款下载多媒体文件的神奇，可以下载个大视频网站的视频，而且速度相当快。  </p><p>而且支持各大主流浏览器插件。<br>由于一些限制，如果无法通过浏览器商店安装插件，可以在这里<a href="https://github.com/charlieMonroe/DownieExtensions" target="_blank" rel="noopener">下载浏览器插件</a>：</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ol><li>支持4K视频下载</li><li>支持国外网站 Youtube 、Vimeo 等，国内网站如优酷、爱奇艺、腾讯、搜狐、B站等等，苹果官网视频也可以下</li><li>下载速度超快</li><li>绕过Flash，Mac用户都知道 Flash 具备“强大”的暖手功能。</li></ol><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2019/12/24/8FrQSO1LNnh6BAq.jpg" alt="downie_detail_1.jpg"><br><img data-src="https://i.loli.net/2019/12/24/ozr5kbax7dB6jFs.jpg" alt="downie_detail_2.jpg"><br><img data-src="https://i.loli.net/2019/12/24/cTUq7K4Bgpshnrv.jpg" alt="downie_detail_3.jpg"><br><img data-src="https://i.loli.net/2019/12/24/qOXEwZy97LhMYfl.jpg" alt="downie_detail_4.jpg"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-414955556" target="_blank" rel="noopener">https://t00y.com/file/16515554-414955556</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -456,7 +483,7 @@
     <link href="https://www.gbook.xyz/2019/12/24/about-declaration/"/>
     <id>https://www.gbook.xyz/2019/12/24/about-declaration/</id>
     <published>2019-12-24T08:30:27.000Z</published>
-    <updated>2019-12-30T13:17:35.241Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="免责声明"><a href="#免责声明" class="headerlink" title="免责声明"></a>免责声明</h1><p><em>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！</em><br><em>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</em></p><h1 id="解压密码"><a href="#解压密码" class="headerlink" title="解压密码"></a>解压密码</h1><p>默认情况下，本站的解压密码为<code>gbook.xyz</code><br>如果出现变动，请注意博客上的通知</p>]]></content>
     
@@ -480,7 +507,7 @@
     <link href="https://www.gbook.xyz/2019/12/24/app-cleaner-3-5/"/>
     <id>https://www.gbook.xyz/2019/12/24/app-cleaner-3-5/</id>
     <published>2019-12-24T06:42:31.000Z</published>
-    <updated>2019-12-30T13:17:35.241Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>AppCleaner是一个出色的卸载程序，用于搜索和销毁在卸载过程中可能会遗留的文件。</p><p>在Mac上卸载应用程序并不仅仅意味着丢弃文件。<br>您经常需要检查库并删除应用程序支持和缓存文件。<br>像AppCleaner这样的卸载程序将确保删除所有不需要的文件。</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ul><li>清除已安装组件<br>AppCleaner具有简单的复选框卸载功能，还可以浏览已安装的应用程序，分为应用程序，小部件和其他 应用程序。<br>最后一个特别有用，因为它显示了您通常必须在应用程序库中进行挖掘的所有插件和组件。<br>AppCleaner甚至可以清除缓存和收据。</li><li>易于搜索和销毁应用程序<br>AppCleaner非常简单，这要归功于搜索功能可以更快地找到应用程序，而有用的SmartDelete将检测并删除相关项目。<br>您可以保护已启动和默认的应用程序和3D转换，并选择其他您不想删除的应用程序。<br>AppCleaner整体上非常易于使用 ，小界面非常清晰简洁。</li></ul><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2019/12/24/IG3bPZtuScUvVJB.jpg" alt="效果图"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>将解压后的文件拖到应用程序目录中即可使用</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-414823312" target="_blank" rel="noopener">https://t00y.com/file/16515554-414823312</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
     
@@ -511,7 +538,7 @@
     <link href="https://www.gbook.xyz/2019/12/23/twitter-interview-question-10/"/>
     <id>https://www.gbook.xyz/2019/12/23/twitter-interview-question-10/</id>
     <published>2019-12-23T09:45:52.000Z</published>
-    <updated>2019-12-30T13:17:35.240Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假如你有一个电商网站，我们将订单的ID按时间从新到旧记录到log文件中。</p><p>要求：</p><p>假如订单的ID的数量为N，我们需要提供给两个函数：</p><ul><li><code>record(order_id)</code>：添加订单ID到log中。</li><li><code>getLast(i)</code>：获取 <code>i</code> 条最新的订单列表。</li></ul><p>要求尽可能的以最高的效率实现</p>]]></content>
     
@@ -539,7 +566,7 @@
     <link href="https://www.gbook.xyz/2019/12/19/amazon-interview-question-9/"/>
     <id>https://www.gbook.xyz/2019/12/19/amazon-interview-question-9/</id>
     <published>2019-12-19T05:19:35.000Z</published>
-    <updated>2019-12-30T13:17:35.239Z</updated>
+    <updated>2019-12-30T13:17:35.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定一个整型数 k 和字符串 s</p><p>要求：<br>从 s 中找到最长的字符串，该字符串包含最多 k 个不同元素</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>s = “abcba”, k = 2</p><p>结果为 “bcb”</p>]]></content>
     
@@ -559,40 +586,6 @@
     
     
       <category term="Amazon" scheme="https://www.gbook.xyz/tags/Amazon/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>推荐一些自己用过的wordpress插件</title>
-    <link href="https://www.gbook.xyz/2019/12/19/wordpress-common-used-plugin/"/>
-    <id>https://www.gbook.xyz/2019/12/19/wordpress-common-used-plugin/</id>
-    <published>2019-12-19T01:24:45.000Z</published>
-    <updated>2019-12-30T13:17:35.239Z</updated>
-    
-    <content type="html"><![CDATA[<table><thead><tr><th align="left">插件名称</th><th align="left">描述</th></tr></thead><tbody><tr><td align="left">No Category Base (WPML)</td><td align="left">移除链接中的‘/category’</td></tr><tr><td align="left">Contact Form 7</td><td align="left">一个联系表单插件，简单而灵活</td></tr><tr><td align="left">Admin Menu Editor</td><td align="left">自定义后台管理端的菜单</td></tr><tr><td align="left">Akismet Anti-Spam</td><td align="left">由千百万人使用，Akismet可能是保护您的站点免受垃圾评论的世界上最好的方式。 即使你在睡觉时，它也保护您的站点。 使用方式：激活Akismet插件，然后转到Akismet设置页面来设置您的API密钥。</td></tr><tr><td align="left">Autoptimize</td><td align="left">自动打包js和css</td></tr><tr><td align="left">Baidu Sitemap Generator</td><td align="left">生成百度 Sitemap XML 文件。就相当于网站被百度–全球最大的中文搜索引擎订阅，进而为您的网站带来潜在的流量。同时生成一个静态的站点地图页面，对所有的搜索引擎都有利。</td></tr><tr><td align="left">Crayon Syntax Highlighter</td><td align="left">高亮各种代码块，可支持多种语言</td></tr><tr><td align="left">Disable Google Fonts</td><td align="left">取消google字体</td></tr><tr><td align="left">Menu Icons</td><td align="left">自定义菜单的图标</td></tr><tr><td align="left">User Role Editor</td><td align="left">自定义多种角色角色权限</td></tr><tr><td align="left">WordPress Database Backup</td><td align="left">数据库备份插件</td></tr><tr><td align="left">WP Crontrol</td><td align="left">自定义定时任务</td></tr><tr><td align="left">转向(Redirection)</td><td align="left">管理301跳转和404跳转</td></tr><tr><td align="left">WP Super Cache</td><td align="left">快速缓存插件，不带压缩功能</td></tr><tr><td align="left">W3 Total Cache</td><td align="left">快速缓存插件，功能更强大，自带压缩功能</td></tr><tr><td align="left">Disable Comments</td><td align="left">取消评论功能</td></tr><tr><td align="left">Duplicator</td><td align="left">备份整个网站，用于网站迁移，和The7主题配套使用时有bug，详见下方解决方式。</td></tr><tr><td align="left">Show Hide Author</td><td align="left">在文章中关闭作者显示</td></tr><tr><td align="left">Smart Slider 3</td><td align="left">比较好用的slider插件</td></tr><tr><td align="left">Useso take over Google</td><td align="left">替换所有的Google字体、谷歌JS公用库、Gravatar头像为geekzu资源。</td></tr><tr><td align="left">WP Baidu Map</td><td align="left">百度地图插件</td></tr><tr><td align="left">WP-Mail-SMTP</td><td align="left">邮件插件，可配合Contact Form 7使用</td></tr></tbody></table><blockquote><p>Duplicator插件和The7主题配合使用的bug，如下：</p></blockquote><ol><li>在使用了demo后的The7主题中，会存在迁移后主题不对的情况，解决方式如下：<ol><li>首先导出The7主题的配置文件</li><li>在新网站上线导入demo，只选择导入配置项</li><li>导入完成后再次导入The7主题的配置文件</li></ol></li><li>在网站迁移时，会存在数据库中对应的链接地址和资源地址不正确的情况，在数据库导入前需要对应修改数据库文件</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;left&quot;&gt;插件名称&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;No Category Base (WPML)
-      
-    
-    </summary>
-    
-    
-      <category term="note" scheme="https://www.gbook.xyz/categories/note/"/>
-    
-    
-      <category term="Wordpress" scheme="https://www.gbook.xyz/tags/Wordpress/"/>
     
   </entry>
   

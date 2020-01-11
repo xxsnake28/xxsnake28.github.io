@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>Alfred v4.0.8.1133 效率神器</title>
+      <link href="/2020/01/11/alfred-4-0-8-1133/"/>
+      <url>/2020/01/11/alfred-4-0-8-1133/</url>
+      
+        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>效率神器，比mac下原生的搜索功能好用的多。一个 <code>option + 空格</code> 搞定一切。</p><p>可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。</p><p><img data-src="https://i.loli.net/2020/01/04/glhOW9c7FtP8H6L.jpg" alt="主界面"><br><img data-src="https://i.loli.net/2020/01/04/xHJBqEcpTQuP8Lw.jpg" alt="配置"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>拖动APP到 <code>Applications</code> 即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-417127335" target="_blank" rel="noopener">https://t00y.com/file/16515554-417127335</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> mac-tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Tools </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SteerMouse v5.4.3 鼠标驱动类神器</title>
+      <link href="/2020/01/11/steer-mouse-5-4-3/"/>
+      <url>/2020/01/11/steer-mouse-5-4-3/</url>
+      
+        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>SteerMouse是Mac下的一款类似鼠标驱动的工具，主要用来调整外接鼠标的配置，例如鼠标的功能键，滚轮调整等。</p><p>之前因为自己的触控板嗝屁了，短时间内也没办法更换，官方的更换贼贵。<br>自己比较熟悉Mac的各种触控板手势操作，比如切屏啊，打开各种软件啊，等等，没有鼠标的功能键支持，用起来非常别扭。<br>所以使用的该工具。</p><p>SteerMouse可以分配不同的功能按钮，包括双点击点击，改性剂，应用切换，快捷键的分配，“对齐”，光标移动，光标移动的目标（如OK按钮），和更多。<br>SteerMouse可以让你控制光标的灵敏度上的跟踪速度。（苹果的软件只允许跟踪速度。调整）调整配置，您可以自定义光标到适合你的手的运动的理想环境。  </p><p><img data-src="https://i.loli.net/2020/01/11/TAb7zLMh3IYJ5X2.png" alt="图1"><br><img data-src="https://i.loli.net/2020/01/11/v8xyEMo3Yz4BsZJ.png" alt="图2"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>打开 <code>install</code>目录</li><li>双击 <code>SteerMouse.prefPane</code> 安装</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>官网：<a href="https://plentycom.jp/en/steermouse/" target="_blank" rel="noopener">https://plentycom.jp/en/steermouse/</a><br>城通网盘：<a href="https://t00y.com/file/16515554-417122508" target="_blank" rel="noopener">https://t00y.com/file/16515554-417122508</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> mac-tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Tools </tag>
+            
+            <tag> Mouse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>#16 Microsoft 面试题</title>
       <link href="/2020/01/09/microsoft-interview-question-16/"/>
       <url>/2020/01/09/microsoft-interview-question-16/</url>
@@ -29,7 +85,7 @@
     
     
     <entry>
-      <title>Charles Proxy v4.2.8</title>
+      <title>Charles Proxy v4.2.8 Mac的抓包工具，支持https</title>
       <link href="/2020/01/04/charles-4-2-8/"/>
       <url>/2020/01/04/charles-4-2-8/</url>
       
@@ -56,11 +112,11 @@
     
     
     <entry>
-      <title>Alfred v4.0.7.1131</title>
+      <title>Alfred v4.0.7.1131 效率神器</title>
       <link href="/2020/01/04/alfred-4-0-7-1131/"/>
       <url>/2020/01/04/alfred-4-0-7-1131/</url>
       
-        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>效率神器，比mac下原生的搜索功能好用的多。</p><p>可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。</p><p><img data-src="https://i.loli.net/2020/01/04/glhOW9c7FtP8H6L.jpg" alt="主界面"><br><img data-src="https://i.loli.net/2020/01/04/xHJBqEcpTQuP8Lw.jpg" alt="配置"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：</p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>效率神器，比mac下原生的搜索功能好用的多。一个 <code>option + 空格</code> 搞定一切。</p><p>可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。</p><p><img data-src="https://i.loli.net/2020/01/04/glhOW9c7FtP8H6L.jpg" alt="主界面"><br><img data-src="https://i.loli.net/2020/01/04/xHJBqEcpTQuP8Lw.jpg" alt="配置"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-416164140" target="_blank" rel="noopener">https://t00y.com/file/16515554-416164140</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
       
       
       <categories>
@@ -83,7 +139,7 @@
     
     
     <entry>
-      <title>CleanMyMac X v4.5.2</title>
+      <title>CleanMyMac X v4.5.2 大名鼎鼎的Mac清理工具</title>
       <link href="/2020/01/04/cleanmymac-x-v4-5-2/"/>
       <url>/2020/01/04/cleanmymac-x-v4-5-2/</url>
       
@@ -112,7 +168,7 @@
     
     
     <entry>
-      <title>TextMate v2.0.6</title>
+      <title>TextMate v2.0.6 贼好用的文本编辑器</title>
       <link href="/2020/01/04/textmate-v2-0-6/"/>
       <url>/2020/01/04/textmate-v2-0-6/</url>
       
@@ -139,7 +195,7 @@
     
     
     <entry>
-      <title>Navicat Premium v15.0.5</title>
+      <title>Navicat Premium v15.0.5 著名的数据库管理软件</title>
       <link href="/2020/01/02/navicat-premium-v15-0-5/"/>
       <url>/2020/01/02/navicat-premium-v15-0-5/</url>
       
@@ -272,7 +328,7 @@
     
     
     <entry>
-      <title>CleanMyMac X v4.5.1</title>
+      <title>CleanMyMac X v4.5.1 大名鼎鼎的Mac清理工具</title>
       <link href="/2019/12/30/cleanmymac-x-v4-5-1/"/>
       <url>/2019/12/30/cleanmymac-x-v4-5-1/</url>
       
@@ -401,7 +457,7 @@
     
     
     <entry>
-      <title>Downie 3 V3.9.3</title>
+      <title>Downie 3 V3.9.3 网站视频下载神器</title>
       <link href="/2019/12/24/downie-v3-9-3/"/>
       <url>/2019/12/24/downie-v3-9-3/</url>
       
@@ -421,7 +477,9 @@
             
             <tag> Tools </tag>
             
-            <tag> Video-Download </tag>
+            <tag> Video </tag>
+            
+            <tag> Download </tag>
             
         </tags>
       
@@ -449,7 +507,7 @@
     
     
     <entry>
-      <title>App Cleaner V3.5</title>
+      <title>App Cleaner V3.5 Mac下简洁的APP清理工具</title>
       <link href="/2019/12/24/app-cleaner-3-5/"/>
       <url>/2019/12/24/app-cleaner-3-5/</url>
       

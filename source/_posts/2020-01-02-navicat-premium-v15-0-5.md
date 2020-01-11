@@ -1,5 +1,5 @@
 ---
-title: 'Navicat Premium v15.0.5'
+title: 'Navicat Premium v15.0.5 著名的数据库管理软件'
 categories: mac-tools
 tags:
   - Mac

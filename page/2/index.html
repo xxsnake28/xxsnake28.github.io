@@ -222,6 +222,108 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.gbook.xyz/2019/12/31/hexo-next-close-symbols-count-time/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/huluwa-z.jpg">
+      <meta itemprop="name" content="bigboss">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="懒人聚集地">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/12/31/hexo-next-close-symbols-count-time/" class="post-title-link" itemprop="url">hexo的NexT主题中，关闭字数和阅读时长统计</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-12-31 11:54:10 / 修改时间：12:13:12" itemprop="dateCreated datePublished" datetime="2019-12-31T11:54:10+08:00">2019-12-31</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/note/" itemprop="url" rel="index">
+                    <span itemprop="name">note</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2019/12/31/hexo-next-close-symbols-count-time/" class="post-meta-item leancloud_visitors" data-flag-title="hexo的NexT主题中，关闭字数和阅读时长统计" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">评论次数：</span>
+    
+    <a title="valine" href="/2019/12/31/hexo-next-close-symbols-count-time/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/12/31/hexo-next-close-symbols-count-time/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h1><p>默认情况下，hexo的next主题中会打开字数统计和阅读时长统计。<br>并且包含文章本身的统计和全局统计，如图：<br><img data-src="https://i.loli.net/2019/12/31/7wsOGI2k9goylxf.jpg" alt="全局统计"><br><img data-src="https://i.loli.net/2019/12/31/kMsdlJHSfUW5OwP.jpg" alt="文章统计"></p>
+<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>可能有些人不喜欢这个，比如我，那么我就要关闭他。</p>
+<h1 id="怎么做"><a href="#怎么做" class="headerlink" title="怎么做"></a>怎么做</h1><ol>
+<li>将插件<code>hexo-symbols-count-time</code> 更新到最新版本<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn upgrade hexo-symbols-count-time@^版本号</span><br></pre></td></tr></table></figure></li>
+<li>打开<code>hexo</code> 根目录的文件 <code>_config.yml</code> 并修改<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 增加如下配置</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">false</span> <span class="comment"># 关闭文章时长统计</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">false</span> <span class="comment"># 关闭全局字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">false</span> <span class="comment"># 关闭全局时长统计</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<blockquote>
+<p>已测试版本：<br>hexo: 4.0.0 ~ 4.2.0<br>next: 7.6.0</p>
+</blockquote>
+<h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>在 <code>theme/next/layout/_partials/footer.swig</code> 文件中，是对应改全局配置的地方。<br>其中，如下代码表明了对应的全局配置：<br><img data-src="https://i.loli.net/2019/12/31/A5mfw7srv93OEi6.jpg" alt="代码"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://www.gbook.xyz/2019/12/31/google-interview-question-14/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1167,121 +1269,6 @@
   
   
 
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.gbook.xyz/2019/12/24/app-cleaner-3-5/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/huluwa-z.jpg">
-      <meta itemprop="name" content="bigboss">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="懒人聚集地">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/12/24/app-cleaner-3-5/" class="post-title-link" itemprop="url">App Cleaner V3.5 Mac下简洁的APP清理工具</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-12-24 14:42:31" itemprop="dateCreated datePublished" datetime="2019-12-24T14:42:31+08:00">2019-12-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-01-11 17:18:17" itemprop="dateModified" datetime="2020-01-11T17:18:17+08:00">2020-01-11</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/mac-tools/" itemprop="url" rel="index">
-                    <span itemprop="name">mac-tools</span>
-                  </a>
-                </span>
-            </span>
-
-          
-            <span id="/2019/12/24/app-cleaner-3-5/" class="post-meta-item leancloud_visitors" data-flag-title="App Cleaner V3.5 Mac下简洁的APP清理工具" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">评论次数：</span>
-    
-    <a title="valine" href="/2019/12/24/app-cleaner-3-5/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2019/12/24/app-cleaner-3-5/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>AppCleaner是一个出色的卸载程序，用于搜索和销毁在卸载过程中可能会遗留的文件。</p>
-<p>在Mac上卸载应用程序并不仅仅意味着丢弃文件。<br>您经常需要检查库并删除应用程序支持和缓存文件。<br>像AppCleaner这样的卸载程序将确保删除所有不需要的文件。</p>
-<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ul>
-<li>清除已安装组件<br>AppCleaner具有简单的复选框卸载功能，还可以浏览已安装的应用程序，分为应用程序，小部件和其他 应用程序。<br>最后一个特别有用，因为它显示了您通常必须在应用程序库中进行挖掘的所有插件和组件。<br>AppCleaner甚至可以清除缓存和收据。</li>
-<li>易于搜索和销毁应用程序<br>AppCleaner非常简单，这要归功于搜索功能可以更快地找到应用程序，而有用的SmartDelete将检测并删除相关项目。<br>您可以保护已启动和默认的应用程序和3D转换，并选择其他您不想删除的应用程序。<br>AppCleaner整体上非常易于使用 ，小界面非常清晰简洁。</li>
-</ul>
-<h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2019/12/24/IG3bPZtuScUvVJB.jpg" alt="效果图"></p>
-<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol>
-<li>解压文件</li>
-<li>将解压后的文件拖到应用程序目录中即可使用</li>
-</ol>
-<h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-414823312" target="_blank" rel="noopener">https://t00y.com/file/16515554-414823312</a></p>
-<blockquote>
-<p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p>
-</blockquote>
-<blockquote>
-<p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p>
-<p>默认情况下，解压密码为<code>gbook.xyz</code></p>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
 
   
@@ -1354,7 +1341,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">43</span>
+          <span class="site-state-item-count">44</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

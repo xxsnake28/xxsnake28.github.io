@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>#16 Google 面试题</title>
+      <link href="/2020/01/11/google-interview-17/"/>
+      <url>/2020/01/11/google-interview-17/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>现有一个 <code>M x N</code>的矩阵，矩阵中，true表示当前位置为墙，false表示当前位置为地板。</p><p>对于给定的起点 <code>start = (a, b)</code> , 给定的终点 <code>end = (m, n)</code></p><p>要求：<br>给定一个算法函数，计算出从起点到达终点的最短路径，如果无可行进路径，则返回null</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>给定的矩阵为 </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 给定的矩阵</span></span><br><span class="line"><span class="keyword">const</span> s = [[f, f, f, f],</span><br><span class="line">        [t, t, f, t],</span><br><span class="line">        [f, f, f, f],</span><br><span class="line">        [f, f, f, f]]</span><br><span class="line"></span><br><span class="line"><span class="comment">// 参数</span></span><br><span class="line"><span class="keyword">const</span> start = [<span class="number">3</span>, <span class="number">0</span>] <span class="comment">// 左下角</span></span><br><span class="line"><span class="keyword">const</span> end = [<span class="number">0</span>, <span class="number">0</span>] <span class="comment">// 左上角</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 结果</span></span><br><span class="line"><span class="keyword">var</span> steps = <span class="number">7</span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 因为路径是从左下角开始到右上角</span></span><br><span class="line"><span class="comment"> * 经过的路线是：(3, 0) -&gt; (3, 1) -&gt; (3, 2) -&gt; (2, 2) -&gt; (1, 2) -&gt; (0, 2) -&gt; (0, 1) -&gt; (0, 0)</span></span><br><span class="line"><span class="comment"> * 合计 7 步（不包含终点）</span></span><br><span class="line"><span class="comment">**/</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Alfred v4.0.8.1133 效率神器</title>
       <link href="/2020/01/11/alfred-4-0-8-1133/"/>
       <url>/2020/01/11/alfred-4-0-8-1133/</url>

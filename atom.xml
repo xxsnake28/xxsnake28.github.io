@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2020-01-11T09:39:26.587Z</updated>
+  <updated>2020-01-11T10:26:51.194Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#16 Google 面试题</title>
+    <link href="https://www.gbook.xyz/2020/01/11/google-interview-17/"/>
+    <id>https://www.gbook.xyz/2020/01/11/google-interview-17/</id>
+    <published>2020-01-11T10:08:45.000Z</published>
+    <updated>2020-01-11T10:26:51.194Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>现有一个 <code>M x N</code>的矩阵，矩阵中，true表示当前位置为墙，false表示当前位置为地板。</p><p>对于给定的起点 <code>start = (a, b)</code> , 给定的终点 <code>end = (m, n)</code></p><p>要求：<br>给定一个算法函数，计算出从起点到达终点的最短路径，如果无可行进路径，则返回null</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>给定的矩阵为 </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 给定的矩阵</span></span><br><span class="line"><span class="keyword">const</span> s = [[f, f, f, f],</span><br><span class="line">        [t, t, f, t],</span><br><span class="line">        [f, f, f, f],</span><br><span class="line">        [f, f, f, f]]</span><br><span class="line"></span><br><span class="line"><span class="comment">// 参数</span></span><br><span class="line"><span class="keyword">const</span> start = [<span class="number">3</span>, <span class="number">0</span>] <span class="comment">// 左下角</span></span><br><span class="line"><span class="keyword">const</span> end = [<span class="number">0</span>, <span class="number">0</span>] <span class="comment">// 左上角</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 结果</span></span><br><span class="line"><span class="keyword">var</span> steps = <span class="number">7</span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 因为路径是从左下角开始到右上角</span></span><br><span class="line"><span class="comment"> * 经过的路线是：(3, 0) -&gt; (3, 1) -&gt; (3, 2) -&gt; (2, 2) -&gt; (1, 2) -&gt; (0, 2) -&gt; (0, 1) -&gt; (0, 0)</span></span><br><span class="line"><span class="comment"> * 合计 7 步（不包含终点）</span></span><br><span class="line"><span class="comment">**/</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;现有一个 &lt;code&gt;M x N&lt;/code&gt;的矩阵，矩阵中，true表示当前位置为墙，false表示当前位置为地板。&lt;/p&gt;
+&lt;p&gt;对于给
+      
+    
+    </summary>
+    
+    
+      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
+    
+    
+      <category term="Google" scheme="https://www.gbook.xyz/tags/Google/"/>
+    
+  </entry>
   
   <entry>
     <title>Alfred v4.0.8.1133 效率神器</title>
@@ -561,37 +588,6 @@
     
       <category term="notice" scheme="https://www.gbook.xyz/categories/notice/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>App Cleaner V3.5 Mac下简洁的APP清理工具</title>
-    <link href="https://www.gbook.xyz/2019/12/24/app-cleaner-3-5/"/>
-    <id>https://www.gbook.xyz/2019/12/24/app-cleaner-3-5/</id>
-    <published>2019-12-24T06:42:31.000Z</published>
-    <updated>2020-01-11T09:18:17.731Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>AppCleaner是一个出色的卸载程序，用于搜索和销毁在卸载过程中可能会遗留的文件。</p><p>在Mac上卸载应用程序并不仅仅意味着丢弃文件。<br>您经常需要检查库并删除应用程序支持和缓存文件。<br>像AppCleaner这样的卸载程序将确保删除所有不需要的文件。</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ul><li>清除已安装组件<br>AppCleaner具有简单的复选框卸载功能，还可以浏览已安装的应用程序，分为应用程序，小部件和其他 应用程序。<br>最后一个特别有用，因为它显示了您通常必须在应用程序库中进行挖掘的所有插件和组件。<br>AppCleaner甚至可以清除缓存和收据。</li><li>易于搜索和销毁应用程序<br>AppCleaner非常简单，这要归功于搜索功能可以更快地找到应用程序，而有用的SmartDelete将检测并删除相关项目。<br>您可以保护已启动和默认的应用程序和3D转换，并选择其他您不想删除的应用程序。<br>AppCleaner整体上非常易于使用 ，小界面非常清晰简洁。</li></ul><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img data-src="https://i.loli.net/2019/12/24/IG3bPZtuScUvVJB.jpg" alt="效果图"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>将解压后的文件拖到应用程序目录中即可使用</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：<a href="https://t00y.com/file/16515554-414823312" target="_blank" rel="noopener">https://t00y.com/file/16515554-414823312</a></p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;AppCleaner是一个出色的卸载程序，用于搜索和销毁在卸载过程中可能会遗留的文件。&lt;/p&gt;
-&lt;p&gt;在Mac上卸载应用程序并不仅仅意味着丢
-      
-    
-    </summary>
-    
-    
-      <category term="mac-tools" scheme="https://www.gbook.xyz/categories/mac-tools/"/>
-    
-    
-      <category term="Mac" scheme="https://www.gbook.xyz/tags/Mac/"/>
-    
-      <category term="Tools" scheme="https://www.gbook.xyz/tags/Tools/"/>
-    
-      <category term="Cleaner" scheme="https://www.gbook.xyz/tags/Cleaner/"/>
     
   </entry>
   

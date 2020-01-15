@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>#19 Facebook面试题</title>
+      <link href="/2020/01/15/facebook-interview-19/"/>
+      <url>/2020/01/15/facebook-interview-19/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>假设有如下的正则规则</p><ul><li><code>.</code>表示任意的单个字符</li><li><code>*</code>表示0及以上个字符</li></ul><p>设计一个函数用来检测给定的正则表达式和字符串是否匹配。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><h2 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h2><p>给定正则 <code>&quot;ra.&quot;</code><br>如果字符串为 <code>ray</code> ，则返回 true。<br>如果字符串为 <code>raymond</code> ， 则返回 false。</p><h2 id="列2"><a href="#列2" class="headerlink" title="列2"></a>列2</h2><p>给定正则 <code>&quot;.*at&quot;</code><br>如果字符串为 <code>chat</code>， 则返回 true。<br>如果字符串为 <code>chats</code>， 则返回 false。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Facebook </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>#18 Google 面试题</title>
+      <link href="/2020/01/15/google-interview-18/"/>
+      <url>/2020/01/15/google-interview-18/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>设计一个可以锁定的二叉树，树的每个节点可以锁定和解锁。</p><blockquote><p>节点的锁定和解锁的条件要求：父节点和子节点（包括所有的多级节点）都没有锁定。</p></blockquote><p>要求：<br>设计一个该二叉树的节点类，要求包含如下方法：</p><ul><li><code>is_locked</code>：返回节点的锁定状态。</li><li><code>lock</code>：锁定节点。如果该节点无法被锁定，返回 false，否则，锁定该节点并返回 true。</li><li><code>unlock</code>：解锁节点。如果该节点无法解锁，返回 false，否则，解锁该节点并返回 true。</li></ul><p>每个方法必须在<code>O(h)</code>下运行，<code>h</code> 表示二叉树的深度。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> interview-question </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Transmit v5.6.2 超全能FTP客户端</title>
       <link href="/2020/01/15/transmit-5-6-2/"/>
       <url>/2020/01/15/transmit-5-6-2/</url>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2020-01-15T09:34:49.033Z</updated>
+  <updated>2020-01-17T05:59:06.063Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git仓库迁移后，如何变更项目地址而无需重新checkout</title>
+    <link href="https://www.gbook.xyz/2020/01/17/git-remote-change/"/>
+    <id>https://www.gbook.xyz/2020/01/17/git-remote-change/</id>
+    <published>2020-01-17T05:42:14.000Z</published>
+    <updated>2020-01-17T05:59:06.063Z</updated>
+    
+    <content type="html"><![CDATA[<p>当我们变更了项目仓库地址时，如果不想重新 checkout，可以通过修改 git 的配置 来指向新的仓库地址。</p><p>假设仓库地址如下：<br>旧地址为：<code>https://github.com/old_name/project_name.git</code><br>新地址为：<code>https://github.com/new_name/project_name.git</code></p><h3 id="方法一，通过命令直接修改远程地址"><a href="#方法一，通过命令直接修改远程地址" class="headerlink" title="方法一，通过命令直接修改远程地址"></a>方法一，通过命令直接修改远程地址</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 进入项目目录</span></span><br><span class="line"><span class="built_in">cd</span> path_to_project</span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查现有配置</span></span><br><span class="line">git remote -v</span><br><span class="line"></span><br><span class="line"><span class="comment"># 变更远程仓库</span></span><br><span class="line">git remote <span class="built_in">set</span>-url origin https://github.com/new_name/project_name.git</span><br><span class="line">git remote <span class="built_in">set</span>-url --push origin https://github.com/new_name/project_name.git</span><br></pre></td></tr></table></figure><h3 id="方法二，通过命令先删除再添加远程仓库"><a href="#方法二，通过命令先删除再添加远程仓库" class="headerlink" title="方法二，通过命令先删除再添加远程仓库"></a>方法二，通过命令先删除再添加远程仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 进入项目目录</span></span><br><span class="line"><span class="built_in">cd</span> path_to_project</span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查现有配置</span></span><br><span class="line">git remote -v</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除原有仓库</span></span><br><span class="line">git remote rm origin</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加新仓库</span></span><br><span class="line">git remote add origin https://github.com/new_name/project_name.git</span><br></pre></td></tr></table></figure><h3 id="方法三，直接修改配置文件"><a href="#方法三，直接修改配置文件" class="headerlink" title="方法三，直接修改配置文件"></a>方法三，直接修改配置文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 进入项目中的git目录</span></span><br><span class="line"><span class="built_in">cd</span> path_to_project/.git</span><br><span class="line"></span><br><span class="line"><span class="comment"># 编辑config文件</span></span><br><span class="line">vim config</span><br><span class="line"></span><br><span class="line"><span class="comment"># 找到标签  [remote “origin”]</span></span><br><span class="line"><span class="comment"># 将标签下的 url 后面的地址替换为新地址 https://github.com/new_name/project_name.git</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;当我们变更了项目仓库地址时，如果不想重新 checkout，可以通过修改 git 的配置 来指向新的仓库地址。&lt;/p&gt;
+&lt;p&gt;假设仓库地址如下：&lt;br&gt;旧地址为：&lt;code&gt;https://github.com/old_name/project_name.git&lt;/code
+      
+    
+    </summary>
+    
+    
+      <category term="note" scheme="https://www.gbook.xyz/categories/note/"/>
+    
+    
+      <category term="git" scheme="https://www.gbook.xyz/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>#19 Facebook面试题</title>
@@ -561,35 +588,6 @@
     
     
       <category term="Wordpress" scheme="https://www.gbook.xyz/tags/Wordpress/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>#12 Google 面试题</title>
-    <link href="https://www.gbook.xyz/2019/12/25/google-interview-question-12/"/>
-    <id>https://www.gbook.xyz/2019/12/25/google-interview-question-12/</id>
-    <published>2019-12-25T09:42:08.000Z</published>
-    <updated>2019-12-30T13:17:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>给定一个整型数组 array， 一个指定整型 k</p><ul><li>数组 array的子数组只要求按顺序的子数组，见例子</li><li>k 的取值范围为 <code>1 &lt;= array &lt;= array.length</code></li></ul><p>要求：<br>找出该数组的所有长度为K的子数组中的最大值。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">array &#x3D; [10, 5, 2, 7, 8, 7]</span><br><span class="line">k &#x3D; 3</span><br><span class="line"></span><br><span class="line"># output</span><br><span class="line">[10, 7, 8, 8]</span><br></pre></td></tr></table></figure><p>因为：  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">10 &#x3D; max(10, 5, 2)</span><br><span class="line">7 &#x3D; max(5, 2, 7)</span><br><span class="line">8 &#x3D; max(2, 7, 8)</span><br><span class="line">8 &#x3D; max(7, 8, 7)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;给定一个整型数组 array， 一个指定整型 k&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;数组 array的子数组只要求按顺序的子数组，见例子&lt;/li&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
-    
-    
-      <category term="Google" scheme="https://www.gbook.xyz/tags/Google/"/>
     
   </entry>
   

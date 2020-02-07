@@ -22,7 +22,7 @@ Navicat Premium 适用于三种平台 - Microsoft Windows、Mac OS X 及 Linux�
 5. 等待弹出窗口之后，拖动 `app` 到应用程序目录下即可。
 
 # 下载地址
-城通网盘：https://t00y.com/file/16515554-415896032
+城通网盘：https://t00y.com/file/16515554-421305232
 > 城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址
 
 

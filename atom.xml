@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.gbook.xyz/"/>
-  <updated>2020-04-09T10:17:52.595Z</updated>
+  <updated>2020-04-09T10:45:01.511Z</updated>
   <id>https://www.gbook.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Alfred v4.0.9.1144 效率神器</title>
+    <link href="https://www.gbook.xyz/2020/04/09/alfred-4-0-9-1144/"/>
+    <id>https://www.gbook.xyz/2020/04/09/alfred-4-0-9-1144/</id>
+    <published>2020-04-09T10:43:50.000Z</published>
+    <updated>2020-04-09T10:45:01.511Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>效率神器，比mac下原生的搜索功能好用的多。一个 <code>option + 空格</code> 搞定一切。</p><p>可以搜索文件，app，可以打开命令行，甚至打开网页直接搜索，谁用谁知道。</p><p><img data-src="https://i.loli.net/2020/01/04/glhOW9c7FtP8H6L.jpg" alt="主界面"><br><img data-src="https://i.loli.net/2020/01/04/xHJBqEcpTQuP8Lw.jpg" alt="配置"></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>解压文件</li><li>双击打开解压后的dmg</li><li>右键点击安装文件，在菜单中选择 <code>打开</code>。</li><li>在弹出的破解命令行中按 <code>回车</code>。</li><li>等待弹出窗口之后，拖动 <code>app</code> 到应用程序目录下即可。</li></ol><h1 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h1><p>城通网盘：</p><blockquote><p>城通网盘文件一般会从我发布之日起30天过期，如果有过期，请留言我更新地址</p></blockquote><blockquote><p>声明：<br>本站的下载内容均来自于互联网，仅供学习交流使用，请下载后于24小时内删除！<br>由于使用不当导致的相关问题，本人及本站均不承担任何责任！</p><p>默认情况下，解压密码为<code>gbook.xyz</code></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;效率神器，比mac下原生的搜索功能好用的多。一个 &lt;code&gt;option + 空格&lt;/code&gt; 搞定一切。&lt;/p&gt;
+&lt;p&gt;可以搜索文件，
+      
+    
+    </summary>
+    
+    
+      <category term="mac-tools" scheme="https://www.gbook.xyz/categories/mac-tools/"/>
+    
+    
+      <category term="Mac" scheme="https://www.gbook.xyz/tags/Mac/"/>
+    
+      <category term="Tools" scheme="https://www.gbook.xyz/tags/Tools/"/>
+    
+  </entry>
   
   <entry>
     <title>CleanMyMac X v4.6.2 大名鼎鼎的Mac清理工具</title>
@@ -564,33 +593,6 @@
       <category term="Tools" scheme="https://www.gbook.xyz/tags/Tools/"/>
     
       <category term="Cleaner" scheme="https://www.gbook.xyz/tags/Cleaner/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>#13 Facebook 面试题</title>
-    <link href="https://www.gbook.xyz/2019/12/30/facebook-interview-question-13/"/>
-    <id>https://www.gbook.xyz/2019/12/30/facebook-interview-question-13/</id>
-    <published>2019-12-30T09:25:40.000Z</published>
-    <updated>2019-12-30T13:17:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>现有一个方块矩阵，包含了 <code>K</code>行以及 <code>N</code> 列。</p><p>并且有 <code>N</code> 种颜色（此处的N和上方的N相同）。</p><p>要求：<br>在相邻两个方块不能为同一种颜色。<br>请列出方块的模型，并列出每种颜色的使用次数。</p><h1 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h1><p>K = 3， N = 3。<br>颜色分别为red(R), Black(B), White(W)<br>排列如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   R  B  W</span><br><span class="line">   B  W  R</span><br><span class="line">   W  B  W</span><br><span class="line"></span><br><span class="line"># 其中 red &#x3D; 2, black &#x3D; 3, white &#x3D; 4</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;现有一个方块矩阵，包含了 &lt;code&gt;K&lt;/code&gt;行以及 &lt;code&gt;N&lt;/code&gt; 列。&lt;/p&gt;
-&lt;p&gt;并且有 &lt;code&gt;N&lt;/c
-      
-    
-    </summary>
-    
-    
-      <category term="interview-question" scheme="https://www.gbook.xyz/categories/interview-question/"/>
-    
-    
-      <category term="Facebook" scheme="https://www.gbook.xyz/tags/Facebook/"/>
     
   </entry>
   
